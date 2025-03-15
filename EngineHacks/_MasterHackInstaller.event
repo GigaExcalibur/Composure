@@ -233,3 +233,4 @@ POP
   // Save/Suspend Expansion
     #include "Necessary/ExpandedModularSave/ExModularSave.event"
 
+#include "NewHacks/NewHacksInstaller.event"

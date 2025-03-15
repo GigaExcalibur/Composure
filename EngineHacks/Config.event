@@ -27,11 +27,11 @@
 // If uncommented, a full str/split will be implemented without replacing any stats
 // TODO: Define an item ID for Spirit Dust (Mag statbooster) in "Strmag/Str Mag Split/Installer.event". Energy Ring is used by default!
 // Item icon for Spirit Dust is included! Define your icon ID in "Strmag/_Master Asm Installer.event". Default is Green Note.
-// #define USE_STRMAG_SPLIT
+#define USE_STRMAG_SPLIT
 
 // If uncommented, the statscreen will have a moving background similar to FE6 and FE7.
 // Customization of graphical assets is possible in Necessary/ModularStatScreen/Background/Graphics/Graphics.event.
-// #define SCROLLING_STATSCREEN_BACKGROUND
+#define SCROLLING_STATSCREEN_BACKGROUND
 
 //If uncommented, will enable Battle Stats with Animations Off.
 #define BATTLE_STATS
@@ -184,10 +184,10 @@ MESSAGE Please see the README.md there or ask @Vesly for help.
 // If uncommented, the fourth page of the stat screen will include personal information on the character.
 // This information can be edited in the "Personal Data Editor.csv" file.
 // This will automatically enable Narrow Font.
-#define ENABLE_PERSONAL_INFO
+//#define ENABLE_PERSONAL_INFO
 
 // If uncommented, the third page of the stat screen will only show weapon ranks that the unit has a rank in.
-#define ONLY_SHOW_USED_RANKS
+//#define ONLY_SHOW_USED_RANKS
 
 // If uncommented, the second page of the stat screen will display data of map-based ballista in the inventory.
 #define QOL_STAT_SCREEN_BALLISTA
@@ -358,10 +358,10 @@ MESSAGE Please see the README.md there or ask @Vesly for help.
 // ================================
 
 //If commented, growths will not be displayed by pressing Select.
-#define PRESS_SELECT_TO_VIEW_GROWTHS
+//#define PRESS_SELECT_TO_VIEW_GROWTHS
 
 //If true, the stat colors for player units will reflect their growth in the stat.
-#define USE_STAT_COLORS True
+#define USE_STAT_COLORS False
 
 //When leveling up, the game rerolls (up to 5 times) until you gain at least this many points
 #define MIN_STAT_GAIN 1 // vanilla is 1 

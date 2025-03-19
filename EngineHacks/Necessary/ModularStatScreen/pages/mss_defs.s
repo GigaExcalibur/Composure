@@ -752,6 +752,15 @@
   blh     BgMap_ApplyTsa
   ldr     r0, =#0x8205A24     @map of text labels and positions
   blh     DrawStatscreenTextMap
+  
+	draw_textID_at 14, 13, textID=0x04F3, width=5 @atk
+	draw_textID_at 14, 15, textID=0x04F4, width=5 @hit
+	draw_textID_at 14, 17, textID=0x04F7, width=5 @as
+
+	draw_textID_at 21, 13, textID=0x0500, width=5 @rng
+	draw_textID_at 21, 15, textID=0x04F5, width=5 @avo
+	draw_textID_at 21, 17, textID=0x04F8, width=5 @ds
+	
   ldr     r6, =StatScreenStruct
   ldr     r0, [r6, #0xC]
   ldr     r0, [r0, #0x4]
@@ -761,7 +770,7 @@
   cmp     r0, #Deny_Statscreen_Class_Lo
     beq     SS_DoneEquipHighlightBar
   
-    .if \showBallista
+    @.if \showBallista
 
         ldr     r2, [r6, #0xC]
         ldr     r0, [r2, #0xC]
@@ -783,7 +792,7 @@
         mov     r4, #0x0             @slot id
         b       SS_DrawEquippedItemHighlight
         
-    .endif
+    @.endif
   
   NoBallistaEquipped_Box:
   ldr     r0, [r6, #0xC] 
@@ -833,6 +842,35 @@
   ldr     r4, =#0x200407C     @bgmap offset
   ldr     r6, =gActiveBattleUnit
   mov     r0, r6
+
+  @atk
+  mov     r0, #0x5A
+  ldsh    r0, [r6, r0]
+  draw_number_at 19, 13
+  
+  @hit
+  mov     r0, #0x60
+  ldsh    r0, [r6, r0]
+  draw_number_at 19, 15
+  
+  @AS
+  mov     r0, #0x5E
+  ldsh    r0, [r6, r0]
+  draw_number_at 19, 17
+  
+  @avo
+  mov     r0, #0x62
+  ldsh    r0, [r6, r0]
+  draw_number_at 27, 15
+  
+  @crit avo ("defense speed")
+  mov     r0, #0x68
+  ldsh    r0, [r6, r0]
+  draw_number_at 27, 17
+/*
+  ldr     r4, =#0x200407C     @bgmap offset
+  ldr     r6, =gActiveBattleUnit
+  mov     r0, r6
   add     r0, #0x5A         @load battle atk
   mov     r1, #0x0
   ldsh    r2, [r0, r1]
@@ -864,8 +902,9 @@
   mov     r1, #0x2
   blh     DrawDecNumber
   b       SS_DrawItemBox_RangeText
-  
+*/
   SS_DrawItemBox_Unarmed:
+/*
   ldr     r4, =#0x200407C
   mov     r0, r4
   mov     r1, #0x2
@@ -890,7 +929,7 @@
   mov     r1, #0x2
   blh     DrawDecNumber
   mov     r5, #0x0            @set item as blank
-  
+*/
   SS_DrawItemBox_RangeText:
   mov     r0, r5
   blh     GetItemRangeString
@@ -913,8 +952,9 @@
   mov     r3, r1
   add     r6, #0x40
   add     r1, r0, r6
-  
+  @*/
   @i think this loop just clears a gfx buffer
+  /*
   loc_0x8087660:
   add     r0, r4, r5
   strh    r0, [r2]
@@ -925,7 +965,7 @@
   add     r4, #0x1
   cmp     r4, #0x7
   ble     loc_0x8087660
-  
+*/
 .endm
 
 .macro draw_items_text showBallista=0

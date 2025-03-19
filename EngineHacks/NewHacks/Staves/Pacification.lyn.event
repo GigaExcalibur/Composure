@@ -1,6 +1,6 @@
 ALIGN 4
 PUSH
-ORG CURRENTOFFSET+$1;AddUnitToTargetListIfNotAggravated:
+ORG CURRENTOFFSET+$1;AddUnitToTargetListIfNotPacified:
 ORG CURRENTOFFSET+$30;ExecPacification:
 ORG CURRENTOFFSET+$60;MakeTargetListForPacification:
 ORG CURRENTOFFSET+$4c;PacificationUsabilityWrapper:

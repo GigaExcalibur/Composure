@@ -7,3 +7,6 @@
 #include "RTextShenanigans/RTextShenanigans.event" // me!
 
 #include "Staves/Staves.event" // me!
+
+#include "StatScreenBlink/SSBlink.event" // nat
+

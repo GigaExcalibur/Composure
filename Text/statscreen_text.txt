@@ -127,10 +127,10 @@ Inrt[X]
 Rng[X]
 
 ## DesdemonaName
-Desdemona[X]
+Vindice[X]
 
 ## SupervacuoName
-Lussurioso[X]
+Pedringano[X]
 
 ## OniChieftainName
 Oni Chieftain[X]

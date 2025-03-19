@@ -1,63 +1,84 @@
 ALIGN 4
-AlexigantMugLabel:
-#incbin "Alexigant_mug.dmp"
-#incbin "Alexigant_frames.dmp"
-#incbin "Alexigant_palette.dmp"
-#incbin "Alexigant_minimug.dmp"
+BelImperiaMugLabel:
+#incbin "BelImperia_mug.dmp"
+#incbin "BelImperia_frames.dmp"
+#incbin "BelImperia_palette.dmp"
+#incbin "BelImperia_minimug.dmp"
 
 ALIGN 4
-DrestonMugLabel:
-#incbin "Dreston_mug.dmp"
-#incbin "Dreston_frames.dmp"
-#incbin "Dreston_palette.dmp"
-#incbin "Dreston_minimug.dmp"
+CastizaMugLabel:
+#incbin "Castiza_mug.dmp"
+#incbin "Castiza_frames.dmp"
+#incbin "Castiza_palette.dmp"
+#incbin "Castiza_minimug.dmp"
 
 ALIGN 4
-EclarroMugLabel:
-#incbin "Eclarro_mug.dmp"
-#incbin "Eclarro_frames.dmp"
-#incbin "Eclarro_palette.dmp"
-#incbin "Eclarro_minimug.dmp"
+DondoloMugLabel:
+#incbin "Dondolo_mug.dmp"
+#incbin "Dondolo_frames.dmp"
+#incbin "Dondolo_palette.dmp"
+#incbin "Dondolo_minimug.dmp"
 
 ALIGN 4
-EunoninaMugLabel:
-#incbin "Eunonina_mug.dmp"
-#incbin "Eunonina_frames.dmp"
-#incbin "Eunonina_palette.dmp"
-#incbin "Eunonina_minimug.dmp"
+GratianaMugLabel:
+#incbin "Gratiana_mug.dmp"
+#incbin "Gratiana_frames.dmp"
+#incbin "Gratiana_palette.dmp"
+#incbin "Gratiana_minimug.dmp"
 
 ALIGN 4
-FabriziaMugLabel:
-#incbin "Fabrizia_mug.dmp"
-#incbin "Fabrizia_frames.dmp"
-#incbin "Fabrizia_palette.dmp"
-#incbin "Fabrizia_minimug.dmp"
+HippolitoMugLabel:
+#incbin "Hippolito_mug.dmp"
+#incbin "Hippolito_frames.dmp"
+#incbin "Hippolito_palette.dmp"
+#incbin "Hippolito_minimug.dmp"
 
 ALIGN 4
-LoranMugLabel:
-#incbin "Loran_mug.dmp"
-#incbin "Loran_frames.dmp"
-#incbin "Loran_palette.dmp"
-#incbin "Loran_minimug.dmp"
+IsabellaMugLabel:
+#incbin "Isabella_mug.dmp"
+#incbin "Isabella_frames.dmp"
+#incbin "Isabella_palette.dmp"
+#incbin "Isabella_minimug.dmp"
 
 ALIGN 4
-SvestriMugLabel:
-#incbin "Svestri_mug.dmp"
-#incbin "Svestri_frames.dmp"
-#incbin "Svestri_palette.dmp"
-#incbin "Svestri_minimug.dmp"
+LorenzoMugLabel:
+#incbin "Lorenzo_mug.dmp"
+#incbin "Lorenzo_frames.dmp"
+#incbin "Lorenzo_palette.dmp"
+#incbin "Lorenzo_minimug.dmp"
 
 ALIGN 4
-WrestonMugLabel:
-#incbin "Wreston_mug.dmp"
-#incbin "Wreston_frames.dmp"
-#incbin "Wreston_palette.dmp"
-#incbin "Wreston_minimug.dmp"
+PedringanoMugLabel:
+#incbin "Pedringano_mug.dmp"
+#incbin "Pedringano_frames.dmp"
+#incbin "Pedringano_palette.dmp"
+#incbin "Pedringano_minimug.dmp"
 
 ALIGN 4
-YarikMugLabel:
-#incbin "Yarik_mug.dmp"
-#incbin "Yarik_frames.dmp"
-#incbin "Yarik_palette.dmp"
-#incbin "Yarik_minimug.dmp"
+PieroMugLabel:
+#incbin "Piero_mug.dmp"
+#incbin "Piero_frames.dmp"
+#incbin "Piero_palette.dmp"
+#incbin "Piero_minimug.dmp"
+
+ALIGN 4
+SerberineMugLabel:
+#incbin "Serberine_mug.dmp"
+#incbin "Serberine_frames.dmp"
+#incbin "Serberine_palette.dmp"
+#incbin "Serberine_minimug.dmp"
+
+ALIGN 4
+SpurioMugLabel:
+#incbin "Spurio_mug.dmp"
+#incbin "Spurio_frames.dmp"
+#incbin "Spurio_palette.dmp"
+#incbin "Spurio_minimug.dmp"
+
+ALIGN 4
+VindiceMugLabel:
+#incbin "Vindice_mug.dmp"
+#incbin "Vindice_frames.dmp"
+#incbin "Vindice_palette.dmp"
+#incbin "Vindice_minimug.dmp"
 

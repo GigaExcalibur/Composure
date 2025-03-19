@@ -17,7 +17,7 @@ void ExecPacification(struct Proc* proc) {
 	return;
 }
 
-void AddUnitToTargetListIfNotAggravated(struct Unit* unit) {
+void AddUnitToTargetListIfNotPacified(struct Unit* unit) {
 	if (IsPacificationBitSet(unit)) {
 		return;
 	}
@@ -34,11 +34,11 @@ void MakeTargetListForPacification(struct Unit* unit) {
 
 	InitTargets(x, y);
 
-	Item_TURange(unit, AddUnitToTargetListIfNotAggravated, PacificationID_Link);
+	Item_TURange(unit, AddUnitToTargetListIfNotPacified, PacificationID_Link);
 	
 	//BmMapFill(gBmMapRange, 0);
 	//MapAddInBoundedRange(x, y, GetItemMinRange(PacificationID_Link), GetItemMaxRange(PacificationID_Link));
-	ForEachUnitInRange(AddUnitToTargetListIfNotAggravated);
+	ForEachUnitInRange(AddUnitToTargetListIfNotPacified);
 }
 
 void PacificationUsabilityWrapper() {

@@ -4,15 +4,18 @@
 #define PortraitTable NewPortraitTable
 #define MaxPortaits 0x300
 
-#define AlexigantMug 		0x02 // Garytop
-#define DrestonMug			0x03 // Kyrads
-#define WrestonMug			0x04 // ZarG
-#define YarikMug			0x05 // MexicanCactus2911
-#define EunoninaMug			0x06 // MeatOfJustice
-#define FabriziaMug			0x07 // Kon
-#define SvestriMug			0x08 // SmokeyGuy77
-#define LoranMug			0x09 // HyperGammaSpaces
-#define EclarroMug			0x0A // RandomWizard
+#define VindiceMug		0x02
+#define HippolitoMug	0x03
+#define CastizaMug		0x04
+#define GratianaMug		0x05
+#define SpurioMug		0x06
+#define PieroMug		0x07
+#define BelImperiaMug	0x08
+#define DondoloMug		0x09
+#define SerberineMug	0x0A
+#define LorenzoMug		0x0B
+#define IsabellaMug		0x0C
+#define PedringanoMug	0x0D
 
 
 // weirdness with repointing the portrait table
@@ -29,12 +32,15 @@ POIN NewPortraitTable
 POP
 
 // newSetMugEntry(<mugindex>,<portrait label>,<mouth X>,<mouth Y>,<eye X>,<eye Y>)
-newSetMugEntry(AlexigantMug, AlexigantMugLabel, 3, 5, 3, 3)
-newSetMugEntry(EunoninaMug, EunoninaMugLabel, 2, 5, 2, 3)
-newSetMugEntry(DrestonMug, DrestonMugLabel, 3, 5, 3, 3)
-newSetMugEntry(WrestonMug, WrestonMugLabel, 3, 5, 3, 3)
-newSetMugEntry(YarikMug, YarikMugLabel, 2, 5, 3, 3)
-newSetMugEntry(FabriziaMug, FabriziaMugLabel, 3, 6, 3, 4)
-newSetMugEntry(SvestriMug, SvestriMugLabel, 3, 6, 3, 4)
-newSetMugEntry(LoranMug, LoranMugLabel, 3, 5, 3, 3)
-newSetMugEntry(EclarroMug, EclarroMugLabel, 3, 4, 3, 2)
+newSetMugEntry(VindiceMug, VindiceMugLabel, 3, 6, 3, 4)
+newSetMugEntry(HippolitoMug, HippolitoMugLabel, 2, 6, 3, 4)
+newSetMugEntry(CastizaMug, CastizaMugLabel, 2, 6, 3, 4)
+newSetMugEntry(GratianaMug, GratianaMugLabel, 3, 4, 3, 2)
+newSetMugEntry(SpurioMug, SpurioMugLabel, 3, 6, 3, 4)
+newSetMugEntry(PieroMug, PieroMugLabel, 2, 5, 2, 3)
+newSetMugEntry(BelImperiaMug, BelImperiaMugLabel, 3, 6, 3, 4)
+newSetMugEntry(DondoloMug, DondoloMugLabel, 3, 5, 3, 3)
+newSetMugEntry(SerberineMug, SerberineMugLabel, 3, 5, 3, 3)
+newSetMugEntry(LorenzoMug, LorenzoMugLabel, 2, 5, 3, 3)
+newSetMugEntry(IsabellaMug, IsabellaMugLabel, 3, 5, 3, 3)
+newSetMugEntry(PedringanoMug, PedringanoMugLabel, 3, 5, 3, 3)

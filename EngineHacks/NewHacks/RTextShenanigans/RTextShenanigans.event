@@ -1,0 +1,19 @@
+ALIGN 4
+ItName_Link:
+WORD ItName
+
+ALIGN 4
+FullNameName_Link:
+WORD FullNameName
+
+ALIGN 4
+RngName_Link:
+WORD RngName
+
+ALIGN 4
+FullNameDescList:
+SHORT 0x026E EirikaFullName
+SHORT 0x027C EphraimFullName
+SHORT 0 0 // terminator
+
+#include "RTextShenanigans.lyn.event"

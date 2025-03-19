@@ -6,7 +6,7 @@
 pMagicModifiers: // Magic
 	POIN prAddUnitMagic HalfMagFunc prAddEquipMagic 
 	POIN prDebuffMag 
-	POIN prRallyMag prSkillFury prFortressDefensePow prFortressResistancePow prItemPassiveMag VigorDanceCheck prLifeAndDeathBonus prDefiantMag prPushMag
+	POIN prRallyMag prSkillFury prFortressDefensePow prFortressResistancePow prItemPassiveMag VigorDanceCheck prLifeAndDeathBonus prDefiantMag prPushMag AggravationPoiPenalty PacificationPoiBonus
 	#ifdef DEBUFFS_MIN_ZERO
 	POIN prMinZero
 	#endif

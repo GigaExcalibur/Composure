@@ -1,0 +1,25 @@
+#undef Assassin; #define Assassin 0x01
+#define Falcoknight 	0x02
+#define Wolfssegner		0x03
+#define HighGremory		0x04
+#undef General; #define General 0x05
+#define OniChieftain	0x06
+#define VioletKnight	0x07
+#define Blacksmith		0x08
+#define Adventurer		0x09
+#undef Paladin; #define Paladin 0x0A
+#define Onmyoji			0x0B
+#define DarkKnight		0x0C
+
+#undef Swordmaster; #define Swordmaster 0x0D
+#define Strategist		0x0E
+#define KinshiKnight	0x0F
+#define Sorcerer		0x10
+#undef GreatKnight; #define GreatKnight 0x11
+#undef Berserker; #define Berserker 0x12
+#define MasterNinja		0x13
+#define Merchant		0x14
+#define SpearMaster		0x15
+#define BowKnight		0x16
+#undef Sniper; #define Sniper 0x17
+#define MaligKnight		0x18

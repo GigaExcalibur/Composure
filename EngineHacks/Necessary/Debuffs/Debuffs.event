@@ -71,7 +71,7 @@ MovRallyAmount_Link:
 WORD 2 
 
 
-#define DebuffEntrySize 8 // Number of bytes 
+#define DebuffEntrySize 12 // Number of bytes 
 
 // NOTE: If you wish to use more bits in the debuff table, please use the provided functions for ease of use. 
 /*
@@ -155,13 +155,10 @@ ArmorMarchBitOffset_Link:
 WORD MiscOffset+3
 VigorDanceBitOffset_Link:
 WORD MiscOffset+4 
-//Used with Dragz's Effectiveness Items
-/*
-FlammableBitOffset_Link:
+PacificationBitOffset_Link:
 WORD MiscOffset+5
-DousedBitOffset_Link:
+AggravationBitOffset_Link:
 WORD MiscOffset+6
-*/
 
 
 ALIGN 4 

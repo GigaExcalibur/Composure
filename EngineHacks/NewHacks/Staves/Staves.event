@@ -1,0 +1,74 @@
+// buff amounts
+ALIGN 4
+AggravationBuffAmount_Link:
+WORD 3
+
+ALIGN 4
+AggravationDebuffAmount_Link:
+WORD 3
+
+ALIGN 4
+PacificationBuffAmount_Link:
+WORD 3
+
+ALIGN 4
+PacificationDebuffAmount_Link:
+WORD 3
+
+// ier
+ALIGN 4
+AggravationSubtitleText_Link:
+WORD AggravationSubtitleText
+
+ALIGN 4
+PacificationSubtitleText_Link:
+WORD PacificationSubtitleText
+
+ALIGN 4
+AggravationID_Link:
+WORD Berserk
+
+ALIGN 4
+PacificationID_Link:
+WORD Sleep
+
+// select info
+ALIGN 4
+AggravationSelectInfo:
+POIN SpeedStaffInitSelect|1
+POIN 0x4E884|1 //ClearBG0BG1
+WORD 0
+POIN AggravationTargetChange|1
+WORD 0
+POIN 0x29550|1 //GenericStaffSelection_OnSelect
+POIN 0x2282C|1 //GenericSelection_BackToUM_CamWait
+WORD 0
+
+ALIGN 4
+PacificationSelectInfo:
+POIN SpeedStaffInitSelect|1
+POIN 0x4E884|1 //ClearBG0BG1
+WORD 0
+POIN PacificationTargetChange|1
+WORD 0
+POIN 0x29550|1 //GenericStaffSelection_OnSelect
+POIN 0x2282C|1 //GenericSelection_BackToUM_CamWait
+WORD 0
+
+/*
+PUSH
+ORG 0x0347B6 // unit name length in info window
+BYTE 8
+*/
+PUSH
+ORG 0x0D7FC0 // DS battle forecast text id
+SHORT DSName
+POP
+
+ALIGN 4
+BattleForecastTSA:
+
+
+#include "DebuffStuff.lyn.event"
+#include "Aggravation.lyn.event"
+#include "Pacification.lyn.event"

@@ -1,0 +1,30 @@
+## AggravationName
+Aggravation[X]
+
+## AggravationDesc
++3 Agi/-3 Poi for one turn.[N]
+Resets at next player phase.[X]
+
+## AggravationUseDesc
+Grants target[N]
++3 Agi/-3 Poi.[X]
+
+## AggravationSubtitleText
+Select ally or enemy to aggravate.[X]
+
+## PacificationName
+Pacification[X]
+
+## PacificationDesc
++3 Poi/-3 Agi for one turn.[N]
+Resets at next player phase.[X]
+
+## PacificationUseDesc
+Grants target[N]
++3 Poi/-3 Agi.[X]
+
+## PacificationSubtitleText
+Select ally or enemy to pacify.[X]
+
+## BloomFestalName
+Bloom Festal[X]

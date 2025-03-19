@@ -1,12 +1,11 @@
 #0x3B SS_TalkText
-Talk[X]
+Tgt[X]
 
 ## SS_SkillsText
 Skills[X]
 
 ## SS_TalkRText
-Character with whom this unit[N]
-may talk on the battlefield.[X]
+You know why you're here.[X]
 
 ## SS_SkillsRText
 Special abilities that can do[N]
@@ -117,3 +116,30 @@ Unit's essence radiates light.[N]
 Unit's essence emanates animus.[N]
 +0.5 Atk, 0.5 Def, 2.5 Avo, and[N]
 2.5 Crit Avo per support rank.[X]
+
+## DSName
+DS[X]
+
+## ItName
+Inrt[X]
+
+## RngName
+Rng[X]
+
+## DesdemonaName
+Desdemona[X]
+
+## SupervacuoName
+Lussurioso[X]
+
+## OniChieftainName
+Oni Chieftain[X]
+
+## FullNameName
+Full Name[X]
+
+## EirikaFullName
+Eirika von Renais[X]
+
+## EphraimFullName
+Ephraim von Renais[X]

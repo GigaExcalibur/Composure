@@ -1,0 +1,10 @@
+#define SetFullName(char, fullname) "PUSH; ORG FullNameTable+(char*2); SHORT fullname; POP"
+
+ALIGN 4
+FullNameTable:
+FILL 255*2
+
+SetFullName(Eirika, EirikaFullName)
+SetFullName(Ephraim, EphraimFullName)
+
+#include "FullNameGetter.lyn.event"

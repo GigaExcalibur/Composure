@@ -1,0 +1,40 @@
+#include "Mug-Preprocessor-master\MugInstaller.event"
+
+#undef PortraitTable
+#define PortraitTable NewPortraitTable
+#define MaxPortaits 0x300
+
+#define AlexigantMug 		0x02 // Garytop
+#define DrestonMug			0x03 // Kyrads
+#define WrestonMug			0x04 // ZarG
+#define YarikMug			0x05 // MexicanCactus2911
+#define EunoninaMug			0x06 // MeatOfJustice
+#define FabriziaMug			0x07 // Kon
+#define SvestriMug			0x08 // SmokeyGuy77
+#define LoranMug			0x09 // HyperGammaSpaces
+#define EclarroMug			0x0A // RandomWizard
+
+
+// weirdness with repointing the portrait table
+#define newSetMugEntry(mugEntry, mugLocation, mouthX, mouthY, eyeX, eyeY) "PUSH; ORG PortraitTable+mugEntry*0x1C; POIN mugLocation; POIN mugLocation+0x1624; POIN mugLocation+0x1604; POIN mugLocation+0x1004; WORD 0x00000000; BYTE mouthX mouthY eyeX eyeY; WORD 0x01; POP"
+#define newSetMugEntry(mugEntry, mugLocation, mouthX, mouthY, eyeX, eyeY, eyeControl) "PUSH; ORG PortraitTable+mugEntry*0x1C; POIN mugLocation; POIN mugLocation+0x1624; POIN mugLocation+0x1604; POIN mugLocation+0x1004; WORD 0x00000000; BYTE mouthX mouthY eyeX eyeY; WORD eyeControl; POP"
+
+ALIGN 8
+NewPortraitTable:
+FILL MaxPortaits * 28
+
+PUSH
+ORG $5524
+POIN NewPortraitTable
+POP
+
+// newSetMugEntry(<mugindex>,<portrait label>,<mouth X>,<mouth Y>,<eye X>,<eye Y>)
+newSetMugEntry(AlexigantMug, AlexigantMugLabel, 3, 5, 3, 3)
+newSetMugEntry(EunoninaMug, EunoninaMugLabel, 2, 5, 2, 3)
+newSetMugEntry(DrestonMug, DrestonMugLabel, 3, 5, 3, 3)
+newSetMugEntry(WrestonMug, WrestonMugLabel, 3, 5, 3, 3)
+newSetMugEntry(YarikMug, YarikMugLabel, 2, 5, 3, 3)
+newSetMugEntry(FabriziaMug, FabriziaMugLabel, 3, 6, 3, 4)
+newSetMugEntry(SvestriMug, SvestriMugLabel, 3, 6, 3, 4)
+newSetMugEntry(LoranMug, LoranMugLabel, 3, 5, 3, 3)
+newSetMugEntry(EclarroMug, EclarroMugLabel, 3, 4, 3, 2)

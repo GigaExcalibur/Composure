@@ -1,0 +1,695 @@
+//Generated - do not edit
+//Copy paste the /* */ section into your definitions if desired.
+//Please copy the SetSMS and SetMMS section to change SMS size and MMS AP. 
+ 
+ 
+ 
+/* 
+//hello
+#define Archer_Fstand 0 
+#define Archer_Mstand 1 
+#define Basarastand 2 
+#define Berserkerstand 3 
+#define Bishopstand 4 
+#define Blademaidenstand 5 
+#define Bombardierstand 6 
+#define Cavalier_Fstand 7 
+#define Cavalier_Mstand 8 
+#define CrownPrincestand 9 
+#define DarkKnightstand 10 
+#define Deserterstand 11 
+#define Druid_Fstand 12 
+#define Druid_Mstand 13 
+#define Falcoknightstand 14 
+#define Fighterstand 15 
+#define Generalstand 16 
+#define GreatKnightstand 17 
+#define Halberdierstand 18 
+#define Hero_Fstand 19 
+#define Hero_Mstand 20 
+#define Juggernautstand 21 
+#define Jurispotencestand 22 
+#define Knightstand 23 
+#define MageKnightstand 24 
+#define Magestand 25 
+#define MaligKnightstand 26 
+#define Mercenary_Fstand 27 
+#define Mercenary_Mstand 28 
+#define Monkstand 29 
+#define Myrmidonstand 30 
+#define Novistadorstand 31 
+#define Paladin_Fstand 32 
+#define Paladin_Mstand 33 
+#define PegasusKnightstand 34 
+#define Piratestand 35 
+#define Prieststand 36 
+#define Prosecutorstand 37 
+#define Rangerstand 38 
+#define Roguestand 39 
+#define Sage_Fstand 40 
+#define Sage_Mstand 41 
+#define Shaman_Fstand 42 
+#define Shaman_Mstand 43 
+#define Sibylstand 44 
+#define Sniper_Fstand 45 
+#define Sniper_Mstand 46 
+#define Soldierstand 47 
+#define Swordmasterstand 48 
+#define Thiefstand 49 
+#define Valkyriestand 50 
+#define WarMonkstand 51 
+#define Warriorstand 52 
+#define WyvernLordstand 53 
+#define WyvernRiderstand 54 
+ 
+ 
+//First free MMS is 127 and will show up if you've expanded classes.
+#define Archer_Fwalk 0 
+#define Archer_Mwalk 1 
+#define Basarawalk 2 
+#define Berserkerwalk 3 
+#define Bishopwalk 4 
+#define Blademaidenwalk 5 
+#define Bombardierwalk 6 
+#define Cavalier_Fwalk 7 
+#define Cavalier_Mwalk 8 
+#define CrownPrincewalk 9 
+#define DarkKnightwalk 10 
+#define Deserterwalk 11 
+#define Druid_Fwalk 12 
+#define Druid_Mwalk 13 
+#define Falcoknightwalk 14 
+#define Fighterwalk 15 
+#define Generalwalk 16 
+#define GreatKnightwalk 17 
+#define Halberdierwalk 18 
+#define Hero_Fwalk 19 
+#define Hero_Mwalk 20 
+#define Juggernautwalk 21 
+#define Jurispotencewalk 22 
+#define Knightwalk 23 
+#define MageKnightwalk 24 
+#define Magewalk 25 
+#define MaligKnightwalk 26 
+#define Mercenary_Fwalk 27 
+#define Mercenary_Mwalk 28 
+#define Monkwalk 29 
+#define Myrmidonwalk 30 
+#define Novistadorwalk 31 
+#define Paladin_Fwalk 32 
+#define Paladin_Mwalk 33 
+#define PegasusKnightwalk 34 
+#define Piratewalk 35 
+#define Priestwalk 36 
+#define Prosecutorwalk 37 
+#define Rangerwalk 38 
+#define Roguewalk 39 
+#define Sage_Fwalk 40 
+#define Sage_Mwalk 41 
+#define Shaman_Fwalk 42 
+#define Shaman_Mwalk 43 
+#define Sibylwalk 44 
+#define Sniper_Fwalk 45 
+#define Sniper_Mwalk 46 
+#define Soldierwalk 47 
+#define Swordmasterwalk 48 
+#define Thiefwalk 49 
+#define Valkyriewalk 50 
+#define WarMonkwalk 51 
+#define Warriorwalk 52 
+#define WyvernLordwalk 53 
+#define WyvernRiderwalk 54 
+ 
+*/ 
+ 
+ 
+ 
+/* 
+//Copy from here 
+PUSH 
+ 
+SetSMS(Archer_Fstand, 1, Archer_Fstand_Data) 
+SetSMS(Archer_Mstand, 1, Archer_Mstand_Data) 
+SetSMS(Basarastand, 1, Basarastand_Data) 
+SetSMS(Berserkerstand, 1, Berserkerstand_Data) 
+SetSMS(Bishopstand, 1, Bishopstand_Data) 
+SetSMS(Blademaidenstand, 1, Blademaidenstand_Data) 
+SetSMS(Bombardierstand, 1, Bombardierstand_Data) 
+SetSMS(Cavalier_Fstand, 1, Cavalier_Fstand_Data) 
+SetSMS(Cavalier_Mstand, 1, Cavalier_Mstand_Data) 
+SetSMS(CrownPrincestand, 1, CrownPrincestand_Data) 
+SetSMS(DarkKnightstand, 1, DarkKnightstand_Data) 
+SetSMS(Deserterstand, 1, Deserterstand_Data) 
+SetSMS(Druid_Fstand, 1, Druid_Fstand_Data) 
+SetSMS(Druid_Mstand, 1, Druid_Mstand_Data) 
+SetSMS(Falcoknightstand, 1, Falcoknightstand_Data) 
+SetSMS(Fighterstand, 1, Fighterstand_Data) 
+SetSMS(Generalstand, 1, Generalstand_Data) 
+SetSMS(GreatKnightstand, 1, GreatKnightstand_Data) 
+SetSMS(Halberdierstand, 1, Halberdierstand_Data) 
+SetSMS(Hero_Fstand, 1, Hero_Fstand_Data) 
+SetSMS(Hero_Mstand, 1, Hero_Mstand_Data) 
+SetSMS(Juggernautstand, 1, Juggernautstand_Data) 
+SetSMS(Jurispotencestand, 1, Jurispotencestand_Data) 
+SetSMS(Knightstand, 1, Knightstand_Data) 
+SetSMS(MageKnightstand, 1, MageKnightstand_Data) 
+SetSMS(Magestand, 1, Magestand_Data) 
+SetSMS(MaligKnightstand, 1, MaligKnightstand_Data) 
+SetSMS(Mercenary_Fstand, 1, Mercenary_Fstand_Data) 
+SetSMS(Mercenary_Mstand, 1, Mercenary_Mstand_Data) 
+SetSMS(Monkstand, 1, Monkstand_Data) 
+SetSMS(Myrmidonstand, 1, Myrmidonstand_Data) 
+SetSMS(Novistadorstand, 1, Novistadorstand_Data) 
+SetSMS(Paladin_Fstand, 1, Paladin_Fstand_Data) 
+SetSMS(Paladin_Mstand, 1, Paladin_Mstand_Data) 
+SetSMS(PegasusKnightstand, 1, PegasusKnightstand_Data) 
+SetSMS(Piratestand, 1, Piratestand_Data) 
+SetSMS(Prieststand, 1, Prieststand_Data) 
+SetSMS(Prosecutorstand, 1, Prosecutorstand_Data) 
+SetSMS(Rangerstand, 1, Rangerstand_Data) 
+SetSMS(Roguestand, 1, Roguestand_Data) 
+SetSMS(Sage_Fstand, 1, Sage_Fstand_Data) 
+SetSMS(Sage_Mstand, 1, Sage_Mstand_Data) 
+SetSMS(Shaman_Fstand, 1, Shaman_Fstand_Data) 
+SetSMS(Shaman_Mstand, 1, Shaman_Mstand_Data) 
+SetSMS(Sibylstand, 1, Sibylstand_Data) 
+SetSMS(Sniper_Fstand, 1, Sniper_Fstand_Data) 
+SetSMS(Sniper_Mstand, 1, Sniper_Mstand_Data) 
+SetSMS(Soldierstand, 1, Soldierstand_Data) 
+SetSMS(Swordmasterstand, 1, Swordmasterstand_Data) 
+SetSMS(Thiefstand, 1, Thiefstand_Data) 
+SetSMS(Valkyriestand, 1, Valkyriestand_Data) 
+SetSMS(WarMonkstand, 1, WarMonkstand_Data) 
+SetSMS(Warriorstand, 1, Warriorstand_Data) 
+SetSMS(WyvernLordstand, 1, WyvernLordstand_Data) 
+SetSMS(WyvernRiderstand, 1, WyvernRiderstand_Data) 
+ 
+ 
+SetMMS(Archer_Fwalk, Archer_Fwalk_Data, DemonKingAP) 
+SetMMS(Archer_Mwalk, Archer_Mwalk_Data, DemonKingAP) 
+SetMMS(Basarawalk, Basarawalk_Data, DemonKingAP) 
+SetMMS(Berserkerwalk, Berserkerwalk_Data, DemonKingAP) 
+SetMMS(Bishopwalk, Bishopwalk_Data, DemonKingAP) 
+SetMMS(Blademaidenwalk, Blademaidenwalk_Data, DemonKingAP) 
+SetMMS(Bombardierwalk, Bombardierwalk_Data, DemonKingAP) 
+SetMMS(Cavalier_Fwalk, Cavalier_Fwalk_Data, DemonKingAP) 
+SetMMS(Cavalier_Mwalk, Cavalier_Mwalk_Data, DemonKingAP) 
+SetMMS(CrownPrincewalk, CrownPrincewalk_Data, DemonKingAP) 
+SetMMS(DarkKnightwalk, DarkKnightwalk_Data, DemonKingAP) 
+SetMMS(Deserterwalk, Deserterwalk_Data, DemonKingAP) 
+SetMMS(Druid_Fwalk, Druid_Fwalk_Data, DemonKingAP) 
+SetMMS(Druid_Mwalk, Druid_Mwalk_Data, DemonKingAP) 
+SetMMS(Falcoknightwalk, Falcoknightwalk_Data, DemonKingAP) 
+SetMMS(Fighterwalk, Fighterwalk_Data, DemonKingAP) 
+SetMMS(Generalwalk, Generalwalk_Data, DemonKingAP) 
+SetMMS(GreatKnightwalk, GreatKnightwalk_Data, DemonKingAP) 
+SetMMS(Halberdierwalk, Halberdierwalk_Data, DemonKingAP) 
+SetMMS(Hero_Fwalk, Hero_Fwalk_Data, DemonKingAP) 
+SetMMS(Hero_Mwalk, Hero_Mwalk_Data, DemonKingAP) 
+SetMMS(Juggernautwalk, Juggernautwalk_Data, DemonKingAP) 
+SetMMS(Jurispotencewalk, Jurispotencewalk_Data, DemonKingAP) 
+SetMMS(Knightwalk, Knightwalk_Data, DemonKingAP) 
+SetMMS(MageKnightwalk, MageKnightwalk_Data, DemonKingAP) 
+SetMMS(Magewalk, Magewalk_Data, DemonKingAP) 
+SetMMS(MaligKnightwalk, MaligKnightwalk_Data, DemonKingAP) 
+SetMMS(Mercenary_Fwalk, Mercenary_Fwalk_Data, DemonKingAP) 
+SetMMS(Mercenary_Mwalk, Mercenary_Mwalk_Data, DemonKingAP) 
+SetMMS(Monkwalk, Monkwalk_Data, DemonKingAP) 
+SetMMS(Myrmidonwalk, Myrmidonwalk_Data, DemonKingAP) 
+SetMMS(Novistadorwalk, Novistadorwalk_Data, DemonKingAP) 
+SetMMS(Paladin_Fwalk, Paladin_Fwalk_Data, DemonKingAP) 
+SetMMS(Paladin_Mwalk, Paladin_Mwalk_Data, DemonKingAP) 
+SetMMS(PegasusKnightwalk, PegasusKnightwalk_Data, DemonKingAP) 
+SetMMS(Piratewalk, Piratewalk_Data, DemonKingAP) 
+SetMMS(Priestwalk, Priestwalk_Data, DemonKingAP) 
+SetMMS(Prosecutorwalk, Prosecutorwalk_Data, DemonKingAP) 
+SetMMS(Rangerwalk, Rangerwalk_Data, DemonKingAP) 
+SetMMS(Roguewalk, Roguewalk_Data, DemonKingAP) 
+SetMMS(Sage_Fwalk, Sage_Fwalk_Data, DemonKingAP) 
+SetMMS(Sage_Mwalk, Sage_Mwalk_Data, DemonKingAP) 
+SetMMS(Shaman_Fwalk, Shaman_Fwalk_Data, DemonKingAP) 
+SetMMS(Shaman_Mwalk, Shaman_Mwalk_Data, DemonKingAP) 
+SetMMS(Sibylwalk, Sibylwalk_Data, DemonKingAP) 
+SetMMS(Sniper_Fwalk, Sniper_Fwalk_Data, DemonKingAP) 
+SetMMS(Sniper_Mwalk, Sniper_Mwalk_Data, DemonKingAP) 
+SetMMS(Soldierwalk, Soldierwalk_Data, DemonKingAP) 
+SetMMS(Swordmasterwalk, Swordmasterwalk_Data, DemonKingAP) 
+SetMMS(Thiefwalk, Thiefwalk_Data, DemonKingAP) 
+SetMMS(Valkyriewalk, Valkyriewalk_Data, DemonKingAP) 
+SetMMS(WarMonkwalk, WarMonkwalk_Data, DemonKingAP) 
+SetMMS(Warriorwalk, Warriorwalk_Data, DemonKingAP) 
+SetMMS(WyvernLordwalk, WyvernLordwalk_Data, DemonKingAP) 
+SetMMS(WyvernRiderwalk, WyvernRiderwalk_Data, DemonKingAP) 
+ 
+POP 
+//Copy until here 
+*/ 
+ 
+ 
+//SMS Image Data 
+ 
+ALIGN 4 
+Archer_Fstand_Data: 
+#incbin "dmp/Archer_Fstand.dmp" 
+ 
+ALIGN 4 
+Archer_Mstand_Data: 
+#incbin "dmp/Archer_Mstand.dmp" 
+ 
+ALIGN 4 
+Basarastand_Data: 
+#incbin "dmp/Basarastand.dmp" 
+ 
+ALIGN 4 
+Berserkerstand_Data: 
+#incbin "dmp/Berserkerstand.dmp" 
+ 
+ALIGN 4 
+Bishopstand_Data: 
+#incbin "dmp/Bishopstand.dmp" 
+ 
+ALIGN 4 
+Blademaidenstand_Data: 
+#incbin "dmp/Blademaidenstand.dmp" 
+ 
+ALIGN 4 
+Bombardierstand_Data: 
+#incbin "dmp/Bombardierstand.dmp" 
+ 
+ALIGN 4 
+Cavalier_Fstand_Data: 
+#incbin "dmp/Cavalier_Fstand.dmp" 
+ 
+ALIGN 4 
+Cavalier_Mstand_Data: 
+#incbin "dmp/Cavalier_Mstand.dmp" 
+ 
+ALIGN 4 
+CrownPrincestand_Data: 
+#incbin "dmp/CrownPrincestand.dmp" 
+ 
+ALIGN 4 
+DarkKnightstand_Data: 
+#incbin "dmp/DarkKnightstand.dmp" 
+ 
+ALIGN 4 
+Deserterstand_Data: 
+#incbin "dmp/Deserterstand.dmp" 
+ 
+ALIGN 4 
+Druid_Fstand_Data: 
+#incbin "dmp/Druid_Fstand.dmp" 
+ 
+ALIGN 4 
+Druid_Mstand_Data: 
+#incbin "dmp/Druid_Mstand.dmp" 
+ 
+ALIGN 4 
+Falcoknightstand_Data: 
+#incbin "dmp/Falcoknightstand.dmp" 
+ 
+ALIGN 4 
+Fighterstand_Data: 
+#incbin "dmp/Fighterstand.dmp" 
+ 
+ALIGN 4 
+Generalstand_Data: 
+#incbin "dmp/Generalstand.dmp" 
+ 
+ALIGN 4 
+GreatKnightstand_Data: 
+#incbin "dmp/GreatKnightstand.dmp" 
+ 
+ALIGN 4 
+Halberdierstand_Data: 
+#incbin "dmp/Halberdierstand.dmp" 
+ 
+ALIGN 4 
+Hero_Fstand_Data: 
+#incbin "dmp/Hero_Fstand.dmp" 
+ 
+ALIGN 4 
+Hero_Mstand_Data: 
+#incbin "dmp/Hero_Mstand.dmp" 
+ 
+ALIGN 4 
+Juggernautstand_Data: 
+#incbin "dmp/Juggernautstand.dmp" 
+ 
+ALIGN 4 
+Jurispotencestand_Data: 
+#incbin "dmp/Jurispotencestand.dmp" 
+ 
+ALIGN 4 
+Knightstand_Data: 
+#incbin "dmp/Knightstand.dmp" 
+ 
+ALIGN 4 
+MageKnightstand_Data: 
+#incbin "dmp/MageKnightstand.dmp" 
+ 
+ALIGN 4 
+Magestand_Data: 
+#incbin "dmp/Magestand.dmp" 
+ 
+ALIGN 4 
+MaligKnightstand_Data: 
+#incbin "dmp/MaligKnightstand.dmp" 
+ 
+ALIGN 4 
+Mercenary_Fstand_Data: 
+#incbin "dmp/Mercenary_Fstand.dmp" 
+ 
+ALIGN 4 
+Mercenary_Mstand_Data: 
+#incbin "dmp/Mercenary_Mstand.dmp" 
+ 
+ALIGN 4 
+Monkstand_Data: 
+#incbin "dmp/Monkstand.dmp" 
+ 
+ALIGN 4 
+Myrmidonstand_Data: 
+#incbin "dmp/Myrmidonstand.dmp" 
+ 
+ALIGN 4 
+Novistadorstand_Data: 
+#incbin "dmp/Novistadorstand.dmp" 
+ 
+ALIGN 4 
+Paladin_Fstand_Data: 
+#incbin "dmp/Paladin_Fstand.dmp" 
+ 
+ALIGN 4 
+Paladin_Mstand_Data: 
+#incbin "dmp/Paladin_Mstand.dmp" 
+ 
+ALIGN 4 
+PegasusKnightstand_Data: 
+#incbin "dmp/PegasusKnightstand.dmp" 
+ 
+ALIGN 4 
+Piratestand_Data: 
+#incbin "dmp/Piratestand.dmp" 
+ 
+ALIGN 4 
+Prieststand_Data: 
+#incbin "dmp/Prieststand.dmp" 
+ 
+ALIGN 4 
+Prosecutorstand_Data: 
+#incbin "dmp/Prosecutorstand.dmp" 
+ 
+ALIGN 4 
+Rangerstand_Data: 
+#incbin "dmp/Rangerstand.dmp" 
+ 
+ALIGN 4 
+Roguestand_Data: 
+#incbin "dmp/Roguestand.dmp" 
+ 
+ALIGN 4 
+Sage_Fstand_Data: 
+#incbin "dmp/Sage_Fstand.dmp" 
+ 
+ALIGN 4 
+Sage_Mstand_Data: 
+#incbin "dmp/Sage_Mstand.dmp" 
+ 
+ALIGN 4 
+Shaman_Fstand_Data: 
+#incbin "dmp/Shaman_Fstand.dmp" 
+ 
+ALIGN 4 
+Shaman_Mstand_Data: 
+#incbin "dmp/Shaman_Mstand.dmp" 
+ 
+ALIGN 4 
+Sibylstand_Data: 
+#incbin "dmp/Sibylstand.dmp" 
+ 
+ALIGN 4 
+Sniper_Fstand_Data: 
+#incbin "dmp/Sniper_Fstand.dmp" 
+ 
+ALIGN 4 
+Sniper_Mstand_Data: 
+#incbin "dmp/Sniper_Mstand.dmp" 
+ 
+ALIGN 4 
+Soldierstand_Data: 
+#incbin "dmp/Soldierstand.dmp" 
+ 
+ALIGN 4 
+Swordmasterstand_Data: 
+#incbin "dmp/Swordmasterstand.dmp" 
+ 
+ALIGN 4 
+Thiefstand_Data: 
+#incbin "dmp/Thiefstand.dmp" 
+ 
+ALIGN 4 
+Valkyriestand_Data: 
+#incbin "dmp/Valkyriestand.dmp" 
+ 
+ALIGN 4 
+WarMonkstand_Data: 
+#incbin "dmp/WarMonkstand.dmp" 
+ 
+ALIGN 4 
+Warriorstand_Data: 
+#incbin "dmp/Warriorstand.dmp" 
+ 
+ALIGN 4 
+WyvernLordstand_Data: 
+#incbin "dmp/WyvernLordstand.dmp" 
+ 
+ALIGN 4 
+WyvernRiderstand_Data: 
+#incbin "dmp/WyvernRiderstand.dmp" 
+ 
+ 
+ 
+ 
+//MMS Image Data 
+ 
+ALIGN 4 
+Archer_Fwalk_Data: 
+#incbin "dmp/Archer_Fwalk.dmp" 
+ 
+ALIGN 4 
+Archer_Mwalk_Data: 
+#incbin "dmp/Archer_Mwalk.dmp" 
+ 
+ALIGN 4 
+Basarawalk_Data: 
+#incbin "dmp/Basarawalk.dmp" 
+ 
+ALIGN 4 
+Berserkerwalk_Data: 
+#incbin "dmp/Berserkerwalk.dmp" 
+ 
+ALIGN 4 
+Bishopwalk_Data: 
+#incbin "dmp/Bishopwalk.dmp" 
+ 
+ALIGN 4 
+Blademaidenwalk_Data: 
+#incbin "dmp/Blademaidenwalk.dmp" 
+ 
+ALIGN 4 
+Bombardierwalk_Data: 
+#incbin "dmp/Bombardierwalk.dmp" 
+ 
+ALIGN 4 
+Cavalier_Fwalk_Data: 
+#incbin "dmp/Cavalier_Fwalk.dmp" 
+ 
+ALIGN 4 
+Cavalier_Mwalk_Data: 
+#incbin "dmp/Cavalier_Mwalk.dmp" 
+ 
+ALIGN 4 
+CrownPrincewalk_Data: 
+#incbin "dmp/CrownPrincewalk.dmp" 
+ 
+ALIGN 4 
+DarkKnightwalk_Data: 
+#incbin "dmp/DarkKnightwalk.dmp" 
+ 
+ALIGN 4 
+Deserterwalk_Data: 
+#incbin "dmp/Deserterwalk.dmp" 
+ 
+ALIGN 4 
+Druid_Fwalk_Data: 
+#incbin "dmp/Druid_Fwalk.dmp" 
+ 
+ALIGN 4 
+Druid_Mwalk_Data: 
+#incbin "dmp/Druid_Mwalk.dmp" 
+ 
+ALIGN 4 
+Falcoknightwalk_Data: 
+#incbin "dmp/Falcoknightwalk.dmp" 
+ 
+ALIGN 4 
+Fighterwalk_Data: 
+#incbin "dmp/Fighterwalk.dmp" 
+ 
+ALIGN 4 
+Generalwalk_Data: 
+#incbin "dmp/Generalwalk.dmp" 
+ 
+ALIGN 4 
+GreatKnightwalk_Data: 
+#incbin "dmp/GreatKnightwalk.dmp" 
+ 
+ALIGN 4 
+Halberdierwalk_Data: 
+#incbin "dmp/Halberdierwalk.dmp" 
+ 
+ALIGN 4 
+Hero_Fwalk_Data: 
+#incbin "dmp/Hero_Fwalk.dmp" 
+ 
+ALIGN 4 
+Hero_Mwalk_Data: 
+#incbin "dmp/Hero_Mwalk.dmp" 
+ 
+ALIGN 4 
+Juggernautwalk_Data: 
+#incbin "dmp/Juggernautwalk.dmp" 
+ 
+ALIGN 4 
+Jurispotencewalk_Data: 
+#incbin "dmp/Jurispotencewalk.dmp" 
+ 
+ALIGN 4 
+Knightwalk_Data: 
+#incbin "dmp/Knightwalk.dmp" 
+ 
+ALIGN 4 
+MageKnightwalk_Data: 
+#incbin "dmp/MageKnightwalk.dmp" 
+ 
+ALIGN 4 
+Magewalk_Data: 
+#incbin "dmp/Magewalk.dmp" 
+ 
+ALIGN 4 
+MaligKnightwalk_Data: 
+#incbin "dmp/MaligKnightwalk.dmp" 
+ 
+ALIGN 4 
+Mercenary_Fwalk_Data: 
+#incbin "dmp/Mercenary_Fwalk.dmp" 
+ 
+ALIGN 4 
+Mercenary_Mwalk_Data: 
+#incbin "dmp/Mercenary_Mwalk.dmp" 
+ 
+ALIGN 4 
+Monkwalk_Data: 
+#incbin "dmp/Monkwalk.dmp" 
+ 
+ALIGN 4 
+Myrmidonwalk_Data: 
+#incbin "dmp/Myrmidonwalk.dmp" 
+ 
+ALIGN 4 
+Novistadorwalk_Data: 
+#incbin "dmp/Novistadorwalk.dmp" 
+ 
+ALIGN 4 
+Paladin_Fwalk_Data: 
+#incbin "dmp/Paladin_Fwalk.dmp" 
+ 
+ALIGN 4 
+Paladin_Mwalk_Data: 
+#incbin "dmp/Paladin_Mwalk.dmp" 
+ 
+ALIGN 4 
+PegasusKnightwalk_Data: 
+#incbin "dmp/PegasusKnightwalk.dmp" 
+ 
+ALIGN 4 
+Piratewalk_Data: 
+#incbin "dmp/Piratewalk.dmp" 
+ 
+ALIGN 4 
+Priestwalk_Data: 
+#incbin "dmp/Priestwalk.dmp" 
+ 
+ALIGN 4 
+Prosecutorwalk_Data: 
+#incbin "dmp/Prosecutorwalk.dmp" 
+ 
+ALIGN 4 
+Rangerwalk_Data: 
+#incbin "dmp/Rangerwalk.dmp" 
+ 
+ALIGN 4 
+Roguewalk_Data: 
+#incbin "dmp/Roguewalk.dmp" 
+ 
+ALIGN 4 
+Sage_Fwalk_Data: 
+#incbin "dmp/Sage_Fwalk.dmp" 
+ 
+ALIGN 4 
+Sage_Mwalk_Data: 
+#incbin "dmp/Sage_Mwalk.dmp" 
+ 
+ALIGN 4 
+Shaman_Fwalk_Data: 
+#incbin "dmp/Shaman_Fwalk.dmp" 
+ 
+ALIGN 4 
+Shaman_Mwalk_Data: 
+#incbin "dmp/Shaman_Mwalk.dmp" 
+ 
+ALIGN 4 
+Sibylwalk_Data: 
+#incbin "dmp/Sibylwalk.dmp" 
+ 
+ALIGN 4 
+Sniper_Fwalk_Data: 
+#incbin "dmp/Sniper_Fwalk.dmp" 
+ 
+ALIGN 4 
+Sniper_Mwalk_Data: 
+#incbin "dmp/Sniper_Mwalk.dmp" 
+ 
+ALIGN 4 
+Soldierwalk_Data: 
+#incbin "dmp/Soldierwalk.dmp" 
+ 
+ALIGN 4 
+Swordmasterwalk_Data: 
+#incbin "dmp/Swordmasterwalk.dmp" 
+ 
+ALIGN 4 
+Thiefwalk_Data: 
+#incbin "dmp/Thiefwalk.dmp" 
+ 
+ALIGN 4 
+Valkyriewalk_Data: 
+#incbin "dmp/Valkyriewalk.dmp" 
+ 
+ALIGN 4 
+WarMonkwalk_Data: 
+#incbin "dmp/WarMonkwalk.dmp" 
+ 
+ALIGN 4 
+Warriorwalk_Data: 
+#incbin "dmp/Warriorwalk.dmp" 
+ 
+ALIGN 4 
+WyvernLordwalk_Data: 
+#incbin "dmp/WyvernLordwalk.dmp" 
+ 
+ALIGN 4 
+WyvernRiderwalk_Data: 
+#incbin "dmp/WyvernRiderwalk.dmp" 
+ 

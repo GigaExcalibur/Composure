@@ -4,7 +4,7 @@
 
 The vast majority of F2U portraits were recolored by me. Any portraits not listed were made by Intelligent Systems.
 
-| Character		| Artists(?)	| Link to original (if F2U/F2E) |
+| Character		| Artist(s)		| Link to original (if F2U/F2E) |
 | ---			| ---		 	| ---							 |
 | Vindice		| SSHX			| [SSHX's perch of weird but free stuff](https://feuniverse.us/t/sshxs-perch-of-weird-but-free-stuff/8230) |
 | Hippolito		| Ambrosiac		| [Ultimate Graphics Repository](https://github.com/Klokinator/FE-Repo/blob/main/Portrait%20Repository/Spriting%20Community%20OC's%20(Grouped%20by%20Artist)/Ambrosiac/%7BAmBrosiac%7D%20OC%20Ben.png) |
@@ -20,6 +20,35 @@ The vast majority of F2U portraits were recolored by me. Any portraits not liste
 | Pedringano	| Lenh			| [Ultimate Graphics Repository](https://github.com/Klokinator/FE-Repo/blob/main/Portrait%20Repository/Spriting%20Community%20OC's%20(Grouped%20by%20Artist)/Lenh/%7BLenh%7D%20OC%2015.png) |
 
 ## Map Sprites
+
+Any map sprites not listed were made by Intelligent Systems.
+
+| Class			| Artist(s)			| Repository Link	|
+| ---			| ---				| ---				|
+| Assassin		| RobertFPY			| [Assassin (F)](https://github.com/Klokinator/FE-Repo/blob/main/Map%20Sprites/Infantry%20-%20(Swd)%20Thieves%2C%20Rogues%2C%20Assassins/Assassin%20(F)%20%7BRobertFPY%7D-stand.png) |
+| Falcoknight	| CelestiaHeart 	| [Pegasi (U) T2 Lance Generic](https://github.com/Klokinator/FE-Repo/blob/main/Map%20Sprites/Mounted%20-%20Pegs%2C%20Wyverns%2C%20Griffons/Pegasi%20(U)%20T2%20Lance%20Generic%20%7BCelestiaHeart%7D-stand.png) |
+| Wolfssegner	| JaidynRieman<br>VelvetKitsune<br>Leif | [Wolf Knight (F)](https://github.com/Klokinator/FE-Repo/blob/main/Map%20Sprites/Mounted%20-%20Dismounted%2C%20Monsters%2C%20Misc/Wolf%20Knight%20(F)%20%7BJaidynReiman%2C%20VelvetKitsune%2C%20Leif%7D-stand.png) |
+| High Gremory	| Leif<br>WhatIsAnAubin | [Malig Lord (M) Lance](https://github.com/Klokinator/FE-Repo/blob/main/Map%20Sprites/Magi%20-%20Nature-Type/Malig%20Lord%20(M)%20Lance%20%7BLief%2C%20WhatIsAnAubin%7D-stand.png) |
+| General		| Nuramon			| [General (U) Shield Lance](https://github.com/Klokinator/FE-Repo/blob/main/Map%20Sprites/Infantry%20-%20Knights%2C%20Generals%2C%20Armors/General%20(U)%20Shield%20Lance%20%7BNuramon%7D-stand.png) |
+| Oni Chieftain	| Dora Drago		| [Berserker (M) Oni Chieftain](https://github.com/Klokinator/FE-Repo/blob/main/Map%20Sprites/Infantry%20-%20(Axe)%20Brigs%2C%20Pirates%2C%20Zerkers/Berserker%20(M)%20Oni%20Chieftain%20%7BDora%20Drago%7D-stand.png) |
+| Violet Knight	| Intelligent Systems | Vanilla Great Lord (Eirika) |
+| Blacksmith	| Nuramon			| [Hero (M) Gerik-Style Sword](https://github.com/Klokinator/FE-Repo/blob/main/Map%20Sprites/Infantry%20-%20(Swd)%20Mercenaries%20and%20Heroes/Hero%20(M)%20Gerik-Style%20Sword%20%7BNuramon%7D-stand.png) |
+| Adventurer	| ArcherBias		| [Marksman (M) Nuramon-Style](https://github.com/Klokinator/FE-Repo/blob/main/Map%20Sprites/Infantry%20-%20(Bow)%20Snipers%20and%20Ballistae/Marksman%20(M)%20Nuramon-style%20%7BArcherBias%7D-stand.png) |
+| Paladin		| Pikmin1211		| [Paladin (M) v2 Lance](https://github.com/Klokinator/FE-Repo/blob/main/Map%20Sprites/Mounted%20-%20Cavs%2C%20Paladins%2C%20Rangers/Paladin%20(M)%20v2%20Lance%20%7BPikmin%7D-stand.png) |
+| Onmyoji		| FE7if				| [Blade Lord (F) Exalt Magic](https://github.com/Klokinator/FE-Repo/blob/main/Map%20Sprites/Lords%20-%20Vanilla%20and%20Custom/Blade%20Lord%20(F)%20Exalt%20Magic%20%7BFE7if%7D-stand.png) |
+| Dark Knight	| Pikmin1211<br>Nuramon<br>Der | [Dark Knight (U)](https://github.com/Klokinator/FE-Repo/blob/main/Map%20Sprites/Mounted%20-%20Valks%2C%20MKs%2C%20Magi/Dark%20Knight%20(U)%20%7BPikmin%2C%20Nuramon%2C%20Der%7D-stand.png) |
+| Swordmaster	| L95				| [Swordmaster (M) FE10-Style Sword](https://github.com/Klokinator/FE-Repo/blob/main/Map%20Sprites/Infantry%20-%20(Swd)%20Myrms%20and%20Swordmasters/Swordmaster%20(M)%20FE10-Style%20Sword%20%7BL95%7D-stand.png) |
+| Strategist	| Der				| [Valkyrie (M) Non-Religious Staff](https://github.com/Klokinator/FE-Repo/blob/main/Map%20Sprites/Mounted%20-%20Valks%2C%20MKs%2C%20Magi/Valkyrie%20(M)%20Non-Religious%20Staff%20%7BDer%7D-stand.png) |
+| Maid			| Batima<br>NamelessX<br>Hanakko | [Maid (F) Staff](https://github.com/Klokinator/FE-Repo/blob/main/Map%20Sprites/Magi%20-%20Holy-Type/Maid%20(F)%20Staff%20%7BBatima%2C%20NamelessX%2CHanakko%7D-stand.png) |
+| Sorcerer		| Team SALVAGED		| [Tactician (U)](https://github.com/Klokinator/FE-Repo/blob/main/Map%20Sprites/Magi%20-%20Special/Tactician%20(U)%20%7BSALVAGED%7D-stand.png) |
+| Great Knight	| Pikmin1211<br>L95<br>Der | [Great Knight (M) Alt Axe (White)](https://github.com/Klokinator/FE-Repo/blob/main/Map%20Sprites/Mounted%20-%20Cavs%2C%20Paladins%2C%20Rangers/Great%20Knight%20(M)%20Alt%20Axe%20(White)%20%7BPikmin%2C%20L95%2C%20Der%2C%7D-stand.png) |
+| Berserker		| CelestiaHeart		| [Berserker (U) Axe Generic](https://github.com/Klokinator/FE-Repo/blob/main/Map%20Sprites/Infantry%20-%20(Axe)%20Brigs%2C%20Pirates%2C%20Zerkers/Berserker%20(U)%20Axe%20Generic%20%7BCelestiaHeart%7D-stand.png) |
+| Master Ninja	| Der				| [Ninja](https://github.com/Klokinator/FE-Repo/blob/main/Map%20Sprites/Infantry%20-%20(Swd)%20Thieves%2C%20Rogues%2C%20Assassins/Ninja%20%7BDer%7D-stand.png) |
+| Merchant		| ArcaneEli			| [Great Lord (F) Eirika Sniper Bow](https://github.com/Klokinator/FE-Repo/blob/main/Map%20Sprites/Lords%20-%20Vanilla%20and%20Custom/Great%20Lord%20(F)%20Eirika%20Sniper%20Bow%20%7BArcaneEli%7D-stand.png) |
+| Spear Master	| Pikmin1211<br>Unknown | [Dragoon (M) v2 Lance](https://github.com/Klokinator/FE-Repo/blob/main/Map%20Sprites/Infantry%20-%20(Lnc)%20Soldiers%2C%20Halberdiers/Dragoon%20(M)%20v2%20Lance%20%7BPikmin%2C%20Unknown%7D-stand.png) |
+| Bow Knight	| Leif				| [Paladin (M) Bow](https://github.com/Klokinator/FE-Repo/blob/main/Map%20Sprites/Mounted%20-%20Cavs%2C%20Paladins%2C%20Rangers/Paladin%20(M)%20Bow%20%7BLeif%7D-stand.png) |
+| Sniper		| ArcherBias		| [Sniper (F) v2](https://github.com/Klokinator/FE-Repo/blob/main/Map%20Sprites/Infantry%20-%20(Bow)%20Snipers%20and%20Ballistae/Sniper%20(F)%20v2%20%7BArcherBias%7D-stand.png) |
+| Malig Knight	| MeatOfJustice		| [Wicked Flier (U)](https://github.com/Klokinator/FE-Repo/blob/main/Map%20Sprites/Mounted%20-%20Pegs%2C%20Wyverns%2C%20Griffons/Wicked%20Flier%20(U)%20%7BMeatOfJustice%7D-stand.png) |
 
 ## Animations
 

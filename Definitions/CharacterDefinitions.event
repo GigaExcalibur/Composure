@@ -15,7 +15,7 @@
 // bosses
 #define Lussurioso		0x31 // swordmaster		(killed vindice and hippolito's father)
 #define Junior			0x32 // strategist		(lussurioso's son)
-#define Antonia			0x33 // kinshi knight	(abandoned castiza at the altar)
+#define Antonia			0x33 // maid			(abandoned castiza at the altar)
 #define Christophil		0x34 // sorcerer		(claimed gratiana's professorship)
 #define Ambitioso		0x35 // great knight	(ousted spurio from line of succession)
 #define Villuppo		0x36 // berserker		(cheated in arena against piero)

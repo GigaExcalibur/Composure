@@ -13,7 +13,7 @@
 
 #undef Swordmaster; #define Swordmaster 0x0D
 #define Strategist		0x0E
-#define KinshiKnight	0x0F
+#define Maid			0x0F
 #define Sorcerer		0x10
 #undef GreatKnight; #define GreatKnight 0x11
 #undef Berserker; #define Berserker 0x12

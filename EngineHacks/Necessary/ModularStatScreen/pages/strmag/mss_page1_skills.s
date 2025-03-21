@@ -223,7 +223,7 @@ SkillEnd:
 @ draw_move_bar_at 16, 15
 
 @blh DrawBWLNumbers
-
+/*
 
 
   ldr     r0, =SSS_Flag
@@ -316,6 +316,7 @@ SkillEnd:
   
   cmp     r5, #0x0
   */
+  /*
   bne     SS_DoneEquipHighlightBar
   
   SS_ItemBox_GetID:
@@ -362,6 +363,7 @@ SkillEnd:
   mov     r0, #0x68
   ldsh    r0, [r6, r0]
   draw_number_at 27, 17
+  */
 /*
   ldr     r4, =#0x200407C     @bgmap offset
   ldr     r6, =gActiveBattleUnit
@@ -424,7 +426,7 @@ SkillEnd:
   mov     r1, #0x2
   blh     DrawDecNumber
   mov     r5, #0x0            @set item as blank
-*/
+
   SS_DrawItemBox_RangeText:
   mov     r0, r5
   blh     GetItemRangeString
@@ -460,7 +462,7 @@ SkillEnd:
   add     r4, #0x1
   cmp     r4, #0x7
   ble     loc_0x8087660
-*/
+
 
 ldr		r0,=StatScreenStruct
 sub		r0,#0x2
@@ -490,6 +492,7 @@ ldr		r0,=StatScreenStruct
 sub		r0,#0x2
 mov		r1,#0x0
 strb	r1,[r0]
+*/
 b DoNotUpdate
 .ltorg
 

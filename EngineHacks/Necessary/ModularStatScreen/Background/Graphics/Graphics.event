@@ -41,7 +41,7 @@ ALIGN 4; SSS_MuralPal:
   ALIGN 4; SSS_PageWepSupportTSA:
   #incbin "Tiled/Tilemaps/FE6/Page/WepSupport.dmp"
   ALIGN 4; SSS_PageTSATable:
-  POIN SSS_PageTallTSA SSS_PageTallTSA SSS_PageWepSupportTSA SSS_PageShortTSA
+  POIN SSS_PageShortTSA SSS_PageTallTSA SSS_PageShortTSA SSS_PageWepSupportTSA
   POIN SSS_PageTallTSA SSS_PageTallTSA SSS_PageTallTSA SSS_PageTallTSA              // Enough for eight pages.
 
 // Equipment-stats box.

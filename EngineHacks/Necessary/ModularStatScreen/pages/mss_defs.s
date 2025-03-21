@@ -745,22 +745,22 @@
   ldr     r4, =gGenericBuffer
   mov     r1, r4
   blh     Decompress
-  ldr     r0, =#0x20049EE     @somewhere on the bgmap
+  ldr     r0, =#0x2004A2E     @vanilla - 0x20049EE 
   mov     r2, #0xC1
   lsl     r2, r2, #0x6
   mov     r1, r4
   blh     BgMap_ApplyTsa
   ldr     r0, =#0x8205A24     @map of text labels and positions
-  blh     DrawStatscreenTextMap
-  
-	draw_textID_at 14, 13, textID=0x04F3, width=5 @atk
-	draw_textID_at 14, 15, textID=0x04F4, width=5 @hit
-	draw_textID_at 14, 17, textID=0x04F7, width=5 @as
+  @blh     DrawStatscreenTextMap
+  /*
+	draw_textID_at 14, 13, textID=0x04F3, width=4 @atk
+	draw_textID_at 14, 15, textID=0x04F4, width=4 @hit
+	draw_textID_at 14, 17, textID=0x04F7, width=4 @as
 
-	draw_textID_at 21, 13, textID=0x0500, width=5 @rng
-	draw_textID_at 21, 15, textID=0x04F5, width=5 @avo
-	draw_textID_at 21, 17, textID=0x04F8, width=5 @ds
-	
+	draw_textID_at 21, 13, textID=0x0500, width=4 @rng
+	draw_textID_at 21, 15, textID=0x04F5, width=4 @avo
+	draw_textID_at 21, 17, textID=0x04F8, width=4 @ds
+	*/
   ldr     r6, =StatScreenStruct
   ldr     r0, [r6, #0xC]
   ldr     r0, [r0, #0x4]
@@ -846,27 +846,34 @@
   @atk
   mov     r0, #0x5A
   ldsh    r0, [r6, r0]
-  draw_number_at 19, 13
+  draw_number_at 19, 14
   
   @hit
   mov     r0, #0x60
   ldsh    r0, [r6, r0]
-  draw_number_at 19, 15
+  draw_number_at 19, 16
   
   @AS
   mov     r0, #0x5E
   ldsh    r0, [r6, r0]
-  draw_number_at 19, 17
+  draw_number_at 19, 18
   
   @avo
   mov     r0, #0x62
   ldsh    r0, [r6, r0]
-  draw_number_at 27, 15
+  draw_number_at 27, 16
   
   @crit avo ("defense speed")
   mov     r0, #0x68
   ldsh    r0, [r6, r0]
-  draw_number_at 27, 17
+  draw_number_at 27, 18
+
+  blh	  EquippedWeaponGetter
+  blh     GetItemRangeString
+  mov	  r1, r0
+  ldr     r0, =(tile_origin+(0x20*2*14)+(2*27))
+  blh	  Text_Display
+  
 /*
   ldr     r4, =#0x200407C     @bgmap offset
   ldr     r6, =gActiveBattleUnit

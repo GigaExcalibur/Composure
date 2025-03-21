@@ -2,8 +2,7 @@
 
 ## Portraits
 
-The vast majority of F2U portraits were recolored by me. Any portraits not listed were made by Intelligent Systems.
-
+All F2U portraits were recolored by me.
 | Character		| Artist(s)		| Link to original (if F2U/F2E) |
 | ---			| ---		 	| ---							 |
 | Vindice		| SSHX			| [SSHX's perch of weird but free stuff](https://feuniverse.us/t/sshxs-perch-of-weird-but-free-stuff/8230) |
@@ -21,8 +20,6 @@ The vast majority of F2U portraits were recolored by me. Any portraits not liste
 
 ## Map Sprites
 
-Any map sprites not listed were made by Intelligent Systems.
-
 | Class			| Artist(s)			| Repository Link	|
 | ---			| ---				| ---				|
 | Assassin		| RobertFPY			| [Assassin (F)](https://github.com/Klokinator/FE-Repo/blob/main/Map%20Sprites/Infantry%20-%20(Swd)%20Thieves%2C%20Rogues%2C%20Assassins/Assassin%20(F)%20%7BRobertFPY%7D-stand.png) |
@@ -31,7 +28,7 @@ Any map sprites not listed were made by Intelligent Systems.
 | High Gremory	| Leif<br>WhatIsAnAubin | [Malig Lord (M) Lance](https://github.com/Klokinator/FE-Repo/blob/main/Map%20Sprites/Magi%20-%20Nature-Type/Malig%20Lord%20(M)%20Lance%20%7BLief%2C%20WhatIsAnAubin%7D-stand.png) |
 | General		| Nuramon			| [General (U) Shield Lance](https://github.com/Klokinator/FE-Repo/blob/main/Map%20Sprites/Infantry%20-%20Knights%2C%20Generals%2C%20Armors/General%20(U)%20Shield%20Lance%20%7BNuramon%7D-stand.png) |
 | Oni Chieftain	| Dora Drago		| [Berserker (M) Oni Chieftain](https://github.com/Klokinator/FE-Repo/blob/main/Map%20Sprites/Infantry%20-%20(Axe)%20Brigs%2C%20Pirates%2C%20Zerkers/Berserker%20(M)%20Oni%20Chieftain%20%7BDora%20Drago%7D-stand.png) |
-| Violet Knight	| Intelligent Systems | Vanilla Great Lord (Eirika) |
+| Violet Knight	| Intelligent Systems | [Great Lord (F) Eirika Sword](https://github.com/Klokinator/FE-Repo/blob/main/Map%20Sprites/Lords%20-%20Vanilla%20and%20Custom/Great%20Lord%20(F)%20Eirika%20Sword%20%7BIS%7D-stand.png) |
 | Blacksmith	| Nuramon			| [Hero (M) Gerik-Style Sword](https://github.com/Klokinator/FE-Repo/blob/main/Map%20Sprites/Infantry%20-%20(Swd)%20Mercenaries%20and%20Heroes/Hero%20(M)%20Gerik-Style%20Sword%20%7BNuramon%7D-stand.png) |
 | Adventurer	| ArcherBias		| [Marksman (M) Nuramon-Style](https://github.com/Klokinator/FE-Repo/blob/main/Map%20Sprites/Infantry%20-%20(Bow)%20Snipers%20and%20Ballistae/Marksman%20(M)%20Nuramon-style%20%7BArcherBias%7D-stand.png) |
 | Paladin		| Pikmin1211		| [Paladin (M) v2 Lance](https://github.com/Klokinator/FE-Repo/blob/main/Map%20Sprites/Mounted%20-%20Cavs%2C%20Paladins%2C%20Rangers/Paladin%20(M)%20v2%20Lance%20%7BPikmin%7D-stand.png) |

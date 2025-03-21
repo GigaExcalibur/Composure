@@ -1,168 +1,57 @@
 #include "Internals.event"
 #include "GeneratedInstaller.event"
 
-// CREDITS
-// Myrm/Swordmaster 	- CelestiaHeart
-// Merc 				- Flasuban
-// Hero					- Nuramon
-// Soldier				- Feier, flasuban, Quinnabon
-// Halberdier			- TBA
-// Pirate/Zerker		- CelestiaHeart
-// Fighter				- L95
-// Warrior				- CelestiaHeart
-// Archer				- Der, topazlight
-// Sniper				- ArcherBias
-// Thief/Rogue			- CelestiaHeart
-
-// Knight				- SALVAGED
-// General				- Nuramon
-// Juggernaut			- SD9K
-
-// Mage					- Flasuban
-// Sage					- Unknown
-// Monk					- Teraspark
-// Sibyl				- Smug_Mug, Unknown
-// Shaman				- Ash3wl, L95
-// Druid				- Stormblight
-// Blademaiden			- Nuramon
-// Priest				- Flasuban
-// War Monk				- Der, Author_Pendragon
-// Bishop				- Permafrost
-
-// Cavalier				- SALVAGED
-// Paladin (M)			- Pikmin
-// Paladin (F)			- Flasuban, Tordo45
-// Great Knight			- Pikmin, L95, Der
-// Ranger				- CelestiaHeart
-// Mage Knight			- CelestiaHeart
-// Valkyrie				- CelestiaHeart
-
-// Pegasus Knight/Falco - CelestiaHeart
-// Wyvern Rider			- Unknown
-// Wyvern Lord			- SHYUTERz
-// Malig Knight			- MeatOfJustice
-// Bombardier			- N426
-
-// Dark Knight			- Pikmin, Nuramon, Der
-// Deserter				- SALVAGED
-// Basara				- Jj09
-
-// Jurispotence			- ArcherBias
-// Novistador			- ArcherBias, Ryn
-// Crown Prince			- Cynon
-PUSH
-
-SetSMS(Archer_F, 0, Archer_Fstand_Data) 
-SetSMS(Archer_M, 0, Archer_Mstand_Data) 
-SetSMS(Basara, 0, Basarastand_Data) 
+PUSH 
+ 
+SetSMS(Adventurer, 0, Adventurerstand_Data) 
+SetSMS(Assassin, 0, Assassinstand_Data) 
 SetSMS(Berserker, 1, Berserkerstand_Data) 
-SetSMS(Bishop, 0, Bishopstand_Data) 
-SetSMS(Blademaiden, 0, Blademaidenstand_Data) 
-SetSMS(Bombardier, 1, Bombardierstand_Data) 
-SetSMS(Cavalier_F, 1, Cavalier_Fstand_Data) 
-SetSMS(Cavalier_M, 1, Cavalier_Mstand_Data) 
-SetSMS(CrownPrince, 1, CrownPrincestand_Data) 
+SetSMS(Blacksmith, 0, Blacksmithstand_Data) 
+SetSMS(BowKnight, 1, BowKnightstand_Data) 
 SetSMS(DarkKnight, 1, DarkKnightstand_Data) 
-SetSMS(Deserter, 0, Deserterstand_Data) 
-SetSMS(Druid_F, 0, Druid_Fstand_Data) 
-SetSMS(Druid_M, 0, Druid_Mstand_Data) 
 SetSMS(Falcoknight, 1, Falcoknightstand_Data) 
-SetSMS(Fighter, 1, Fighterstand_Data) 
 SetSMS(General, 2, Generalstand_Data) 
 SetSMS(GreatKnight, 1, GreatKnightstand_Data) 
-SetSMS(Halberdier, 0, Halberdierstand_Data) 
-SetSMS(Hero_F, 0, Hero_Fstand_Data) 
-SetSMS(Hero_M, 0, Hero_Mstand_Data) 
-SetSMS(Juggernaut, 1, Juggernautstand_Data) 
-SetSMS(Jurispotence, 0, Jurispotencestand_Data) 
-SetSMS(Knight, 1, Knightstand_Data) 
-SetSMS(MageKnight, 1, MageKnightstand_Data) 
-SetSMS(Mage, 0, Magestand_Data) 
+SetSMS(HighGremory, 0, HighGremorystand_Data) 
+SetSMS(Maid, 0, Maidstand_Data) 
 SetSMS(MaligKnight, 1, MaligKnightstand_Data) 
-SetSMS(Mercenary_F, 0, Mercenary_Fstand_Data) 
-SetSMS(Mercenary_M, 0, Mercenary_Mstand_Data) 
-SetSMS(Monk, 0, Monkstand_Data) 
-SetSMS(Myrmidon, 0, Myrmidonstand_Data) 
-SetSMS(Novistador, 0, Novistadorstand_Data) 
-SetSMS(Paladin_F, 1, Paladin_Fstand_Data) 
-SetSMS(Paladin_M, 1, Paladin_Mstand_Data) 
-SetSMS(PegasusKnight, 1, PegasusKnightstand_Data) 
-SetSMS(Pirate, 0, Piratestand_Data) 
-SetSMS(Priest, 0, Prieststand_Data) 
-SetSMS(Prosecutor, 0, Prosecutorstand_Data) 
-SetSMS(Ranger, 1, Rangerstand_Data) 
-SetSMS(Rogue, 0, Roguestand_Data) 
-SetSMS(Sage_F, 0, Sage_Fstand_Data) 
-SetSMS(Sage_M, 0, Sage_Mstand_Data) 
-SetSMS(Shaman_F, 0, Shaman_Fstand_Data) 
-SetSMS(Shaman_M, 0, Shaman_Mstand_Data) 
-SetSMS(Sibyl, 0, Sibylstand_Data) 
-SetSMS(Sniper_F, 0, Sniper_Fstand_Data) 
-SetSMS(Sniper_M, 0, Sniper_Mstand_Data) 
-SetSMS(Soldier, 0, Soldierstand_Data) 
+SetSMS(MasterNinja, 0, MasterNinjastand_Data) 
+SetSMS(Merchant, 0, Merchantstand_Data) 
+SetSMS(OniChieftain, 1, OniChieftainstand_Data) 
+SetSMS(Onmyoji, 0, Onmyojistand_Data) 
+SetSMS(Paladin, 1, Paladinstand_Data) 
+SetSMS(Sniper, 0, Sniperstand_Data) 
+SetSMS(Sorcerer, 0, Sorcererstand_Data) 
+SetSMS(SpearMaster, 1, SpearMasterstand_Data) 
+SetSMS(Strategist, 1, Strategiststand_Data) 
 SetSMS(Swordmaster, 0, Swordmasterstand_Data) 
-SetSMS(Thief, 0, Thiefstand_Data) 
-SetSMS(Valkyrie, 1, Valkyriestand_Data) 
-SetSMS(WarMonk, 1, WarMonkstand_Data) 
-SetSMS(Warrior, 1, Warriorstand_Data) 
-SetSMS(WyvernLord, 1, WyvernLordstand_Data) 
-SetSMS(WyvernRider, 1, WyvernRiderstand_Data) 
+SetSMS(VioletKnight, 1, VioletKnightstand_Data) 
+SetSMS(Wolfssegner, 1, Wolfssegnerstand_Data) 
  
  
-SetMMS(Archer_F-1, Archer_Fwalk_Data, DemonKingAP) 
-SetMMS(Archer_M-1, Archer_Mwalk_Data, DemonKingAP) 
-SetMMS(Basara-1, Basarawalk_Data, DemonKingAP) 
+SetMMS(Adventurer-1, Adventurerwalk_Data, DemonKingAP) 
+SetMMS(Assassin-1, Assassinwalk_Data, DemonKingAP) 
 SetMMS(Berserker-1, Berserkerwalk_Data, DemonKingAP) 
-SetMMS(Bishop-1, Bishopwalk_Data, DemonKingAP) 
-SetMMS(Blademaiden-1, Blademaidenwalk_Data, DemonKingAP) 
-SetMMS(Bombardier-1, Bombardierwalk_Data, DemonKingAP) 
-SetMMS(Cavalier_F-1, Cavalier_Fwalk_Data, DemonKingAP) 
-SetMMS(Cavalier_M-1, Cavalier_Mwalk_Data, DemonKingAP) 
-SetMMS(CrownPrince-1, CrownPrincewalk_Data, DemonKingAP) 
+SetMMS(Blacksmith-1, Blacksmithwalk_Data, DemonKingAP) 
+SetMMS(BowKnight-1, BowKnightwalk_Data, DemonKingAP) 
 SetMMS(DarkKnight-1, DarkKnightwalk_Data, DemonKingAP) 
-SetMMS(Deserter-1, Deserterwalk_Data, DemonKingAP) 
-SetMMS(Druid_F-1, Druid_Fwalk_Data, DemonKingAP) 
-SetMMS(Druid_M-1, Druid_Mwalk_Data, DemonKingAP) 
 SetMMS(Falcoknight-1, Falcoknightwalk_Data, DemonKingAP) 
-SetMMS(Fighter-1, Fighterwalk_Data, DemonKingAP) 
 SetMMS(General-1, Generalwalk_Data, DemonKingAP) 
 SetMMS(GreatKnight-1, GreatKnightwalk_Data, DemonKingAP) 
-SetMMS(Halberdier-1, Halberdierwalk_Data, DemonKingAP) 
-SetMMS(Hero_F-1, Hero_Fwalk_Data, DemonKingAP) 
-SetMMS(Hero_M-1, Hero_Mwalk_Data, DemonKingAP) 
-SetMMS(Juggernaut-1, Juggernautwalk_Data, DemonKingAP) 
-SetMMS(Jurispotence-1, Jurispotencewalk_Data, DemonKingAP) 
-SetMMS(Knight-1, Knightwalk_Data, DemonKingAP) 
-SetMMS(MageKnight-1, MageKnightwalk_Data, DemonKingAP) 
-SetMMS(Mage-1, Magewalk_Data, DemonKingAP) 
+SetMMS(HighGremory-1, HighGremorywalk_Data, DemonKingAP) 
+SetMMS(Maid-1, Maidwalk_Data, DemonKingAP) 
 SetMMS(MaligKnight-1, MaligKnightwalk_Data, DemonKingAP) 
-SetMMS(Mercenary_F-1, Mercenary_Fwalk_Data, DemonKingAP) 
-SetMMS(Mercenary_M-1, Mercenary_Mwalk_Data, DemonKingAP) 
-SetMMS(Monk-1, Monkwalk_Data, DemonKingAP) 
-SetMMS(Myrmidon-1, Myrmidonwalk_Data, DemonKingAP) 
-SetMMS(Novistador-1, Novistadorwalk_Data, DemonKingAP) 
-SetMMS(Paladin_F-1, Paladin_Fwalk_Data, DemonKingAP) 
-SetMMS(Paladin_M-1, Paladin_Mwalk_Data, DemonKingAP) 
-SetMMS(PegasusKnight-1, PegasusKnightwalk_Data, DemonKingAP) 
-SetMMS(Pirate-1, Piratewalk_Data, DemonKingAP) 
-SetMMS(Priest-1, Priestwalk_Data, DemonKingAP) 
-SetMMS(Prosecutor-1, Prosecutorwalk_Data, DemonKingAP) 
-SetMMS(Ranger-1, Rangerwalk_Data, DemonKingAP) 
-SetMMS(Rogue-1, Roguewalk_Data, DemonKingAP) 
-SetMMS(Sage_F-1, Sage_Fwalk_Data, DemonKingAP) 
-SetMMS(Sage_M-1, Sage_Mwalk_Data, DemonKingAP) 
-SetMMS(Shaman_F-1, Shaman_Fwalk_Data, DemonKingAP) 
-SetMMS(Shaman_M-1, Shaman_Mwalk_Data, DemonKingAP) 
-SetMMS(Sibyl-1, Sibylwalk_Data, DemonKingAP) 
-SetMMS(Sniper_F-1, Sniper_Fwalk_Data, DemonKingAP) 
-SetMMS(Sniper_M-1, Sniper_Mwalk_Data, DemonKingAP) 
-SetMMS(Soldier-1, Soldierwalk_Data, DemonKingAP) 
+SetMMS(MasterNinja-1, MasterNinjawalk_Data, DemonKingAP) 
+SetMMS(Merchant-1, Merchantwalk_Data, DemonKingAP) 
+SetMMS(OniChieftain-1, OniChieftainwalk_Data, DemonKingAP) 
+SetMMS(Onmyoji-1, Onmyojiwalk_Data, DemonKingAP) 
+SetMMS(Paladin-1, Paladinwalk_Data, DemonKingAP) 
+SetMMS(Sniper-1, Sniperwalk_Data, DemonKingAP) 
+SetMMS(Sorcerer-1, Sorcererwalk_Data, DemonKingAP) 
+SetMMS(SpearMaster-1, SpearMasterwalk_Data, DemonKingAP) 
+SetMMS(Strategist-1, Strategistwalk_Data, DemonKingAP) 
 SetMMS(Swordmaster-1, Swordmasterwalk_Data, DemonKingAP) 
-SetMMS(Thief-1, Thiefwalk_Data, DemonKingAP) 
-SetMMS(Valkyrie-1, Valkyriewalk_Data, DemonKingAP) 
-SetMMS(WarMonk-1, WarMonkwalk_Data, DemonKingAP) 
-SetMMS(Warrior-1, Warriorwalk_Data, DemonKingAP) 
-SetMMS(WyvernLord-1, WyvernLordwalk_Data, DemonKingAP) 
-SetMMS(WyvernRider-1, WyvernRiderwalk_Data, DemonKingAP) 
+SetMMS(VioletKnight-1, VioletKnightwalk_Data, DemonKingAP) 
+SetMMS(Wolfssegner-1, Wolfssegnerwalk_Data, DemonKingAP) 
  
 POP 

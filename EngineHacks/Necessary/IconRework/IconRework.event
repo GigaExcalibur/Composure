@@ -5,6 +5,11 @@
 
 #include "IconRework_Internal.event"
 
+PUSH
+//ORG 0xA1A084 
+//BYTE $55 $53 $DE $7F $37 $6F $30 $4E $2A $21 $BE $3B $56 $16 $B1 $19 $19 $00 $E2 $7D $15 $77 $38 $62 $E3 $0A $98 $00 $4A $59 $00 $00
+POP
+
 // SKILL ICONS SHEET
 {
 InjectIconGfxGetter(1, (prGetSkillIconGfx+1))

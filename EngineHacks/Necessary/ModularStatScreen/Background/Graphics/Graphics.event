@@ -1,8 +1,10 @@
 // Scrolling background.
 ALIGN 4; SSS_MuralGfx:
-#incbin "Relief.dmp"
+//#incbin "Relief.dmp"
+#incbin "bloor bonde.dmp"
 ALIGN 4; SSS_MuralPal:
-#incbin "Relief_pal.dmp"
+//#incbin "Relief_pal.dmp"
+#incbin "bloor bonde_pal.dmp"
 
 // Page on the right.
   // Tiles. Indexed by window option.
@@ -15,8 +17,8 @@ ALIGN 4; SSS_MuralPal:
   ALIGN 4; SSS_PageAndPortraitGfx4:
   #incbin "Tiled/Tilesets/FE6/PageAndPortrait/Grey.dmp"
   ALIGN 4; SSS_PageAndPortraitGfxTable:
-  POIN SSS_PageAndPortraitGfx1 SSS_PageAndPortraitGfx2
-  POIN SSS_PageAndPortraitGfx3 SSS_PageAndPortraitGfx4
+  POIN SSS_PageAndPortraitGfx3 SSS_PageAndPortraitGfx1
+  POIN SSS_PageAndPortraitGfx2 SSS_PageAndPortraitGfx4
 
   // Palettes. Indexed by window option.
   ALIGN 4; SSS_PageAndPortraitPal1:
@@ -28,8 +30,8 @@ ALIGN 4; SSS_MuralPal:
   ALIGN 4; SSS_PageAndPortraitPal4:
   #incbin "Tiled/Tilesets/FE6/PageAndPortrait/GreyPal.dmp"
   ALIGN 4; SSS_PageAndPortraitPalTable:
-  POIN SSS_PageAndPortraitPal1 SSS_PageAndPortraitPal2
-  POIN SSS_PageAndPortraitPal3 SSS_PageAndPortraitPal4
+  POIN SSS_PageAndPortraitPal3 SSS_PageAndPortraitPal1
+  POIN SSS_PageAndPortraitPal2 SSS_PageAndPortraitPal4
   
   // TSA. Indexed by pagenumber.
   ALIGN 4; SSS_PortraitBoxTSA:
@@ -55,8 +57,8 @@ ALIGN 4; SSS_MuralPal:
   ALIGN 4; SSS_StatsBoxPal4:
   #incbin "Tiled/Tilesets/FE6/EquipmentBox/YellowPal.dmp"
   ALIGN 4; SSS_StatsBoxPalTable:
-  POIN SSS_StatsBoxPal1 SSS_StatsBoxPal2
-  POIN SSS_StatsBoxPal3 SSS_StatsBoxPal4
+  POIN SSS_StatsBoxPal1 SSS_StatsBoxPal1
+  POIN SSS_StatsBoxPal1 SSS_StatsBoxPal1
   
   // Other.
   ALIGN 4; SSS_StatsBoxGfx:

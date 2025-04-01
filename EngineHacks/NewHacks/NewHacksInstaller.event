@@ -12,3 +12,6 @@
 
 #include "StatScreenBlink/SSBlink.event" // nat
 
+#include "SystemPalettes/SystemPalettes.event" // me!
+
+#include "InlineChanges/InlineChanges.event" // various

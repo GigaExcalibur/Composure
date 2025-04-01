@@ -57,7 +57,7 @@ draw_textID_at 21, 9, textID=0x4FF, growth_func=3 @mag (poi)
 
 ldr r0,=TalkTextIDLink
 ldrh r0,[r0]
-draw_talk_text_at 13, 11
+draw_talk_text_at 13, 13
 
 /* vanilla
 draw_textID_at 13, 3, textID=0x4fe, growth_func=2 @str

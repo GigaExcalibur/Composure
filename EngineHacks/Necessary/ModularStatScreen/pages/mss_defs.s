@@ -752,15 +752,14 @@
   blh     BgMap_ApplyTsa
   ldr     r0, =#0x8205A24     @map of text labels and positions
   @blh     DrawStatscreenTextMap
-  /*
-	draw_textID_at 14, 13, textID=0x04F3, width=4 @atk
-	draw_textID_at 14, 15, textID=0x04F4, width=4 @hit
-	draw_textID_at 14, 17, textID=0x04F7, width=4 @as
 
-	draw_textID_at 21, 13, textID=0x0500, width=4 @rng
-	draw_textID_at 21, 15, textID=0x04F5, width=4 @avo
-	draw_textID_at 21, 17, textID=0x04F8, width=4 @ds
-	*/
+	draw_textID_at 21, 14, textID=0x04F3, width=4 @atk
+	draw_textID_at 14, 16, textID=0x04F4, width=4 @hit
+	draw_textID_at 14, 18, textID=0x04F7, width=4 @as
+
+	draw_textID_at 21, 16, textID=0x04F5, width=4 @avo
+	draw_textID_at 21, 18, textID=0x04F8, width=4 @ds
+	
   ldr     r6, =StatScreenStruct
   ldr     r0, [r6, #0xC]
   ldr     r0, [r0, #0x4]
@@ -846,7 +845,7 @@
   @atk
   mov     r0, #0x5A
   ldsh    r0, [r6, r0]
-  draw_number_at 19, 14
+  draw_number_at 27, 14
   
   @hit
   mov     r0, #0x60
@@ -953,15 +952,15 @@
   ldr     r0, =gpStatScreenPageBg0Map
   ldr     r3, =#0x7060
   mov     r5, r3
-  ldr     r6, =#0x2C2
+  ldr     r6, =#0x302 @vanilla #0x2C2
   add     r2, r0, r6
   ldr     r1, =#0x7068
   mov     r3, r1
   add     r6, #0x40
   add     r1, r0, r6
-  @*/
+
   @i think this loop just clears a gfx buffer
-  /*
+
   loc_0x8087660:
   add     r0, r4, r5
   strh    r0, [r2]
@@ -972,7 +971,7 @@
   add     r4, #0x1
   cmp     r4, #0x7
   ble     loc_0x8087660
-*/
+
 .endm
 
 .macro draw_items_text showBallista=0

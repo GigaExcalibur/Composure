@@ -1,0 +1,9 @@
+PUSH
+ORG 0x86FE6
+SHORT 0x0 0x0 // makes bwl display regardless of game clear
+POP
+
+PUSH
+ORG 0x870B8
+WORD 0x02003FF4 // I can't entirely explain it but the last two bytes here determine position
+POP

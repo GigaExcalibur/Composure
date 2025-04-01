@@ -1,0 +1,63 @@
+ALIGN 4
+DefaultFactionMapSpritePalettes:
+// player (brown, credit to cynon)
+BYTE $90 $42 $29 $29 $D6 $56 $9C $73 $8E $31 $56 $2E $FF $6B $A7 $0C $0B $11 $51 $19 $F8 $1D $39 $22 $FF $23 $28 $25 $FF $7F $A5 $14
+
+// enemy (black, credit to feier)
+BYTE $90 $42 $E8 $20 $73 $4E $7B $6F $8E $31 $56 $2E $FF $6B $C6 $20 $29 $31 $8C $3D $10 $52 $5F $06 $FF $23 $30 $3A $FF $7F $C7 $18
+
+// npc (unused, vanilla green)
+BYTE $90 $42 $47 $1D $33 $43 $FB $5F $6B $29 $34 $22 $FF $63 $44 $09 $41 $02 $43 $0B $EA $1F $E0 $65 $FC $17 $30 $3A $FF $7F $07 $1D
+
+// already acted (vanilla)
+BYTE $90 $42 $08 $21 $EF $3D $F7 $5E $4A $29 $10 $42 $39 $67 $29 $25 $6B $2D $73 $4E $F7 $5E $CE $39 $39 $67 $30 $3A $5A $6B $E8 $1C
+
+ALIGN 4
+MenuPlayerMapSpritePalettes:
+// option 1 (brown, credit to cynon)
+BYTE $90 $42 $29 $29 $D6 $56 $9C $73 $8E $31 $56 $2E $FF $6B $A7 $0C $0B $11 $51 $19 $F8 $1D $39 $22 $FF $23 $28 $25 $FF $7F $A5 $14
+
+// option 2 (blue, credit to feier)
+BYTE $90 $42 $29 $25 $D4 $66 $7B $73 $8E $31 $56 $32 $FF $6B $A1 $44 $22 $51 $A3 $69 $8A $7E $FF $0C $FF $23 $30 $3A $FF $7F $E7 $1C
+
+// option 3 (red, credit to feier)
+BYTE $90 $42 $2D $25 $93 $52 $58 $6B $8E $31 $56 $2E $FF $6B $4D $0C $51 $08 $B7 $10 $3E $1D $40 $2B $FF $23 $30 $3A $FF $7F $E8 $1C
+
+// option 4 (purple, credit to cynon)
+BYTE $90 $42 $E7 $28 $70 $66 $BB $7B $8E $31 $56 $2A $FF $63 $AB $20 $ED $38 $51 $4D $96 $61 $5D $10 $FF $17 $28 $25 $FF $7F $A5 $14
+
+ALIGN 4
+MenuUIPalettes:
+// option 1 (orange)
+BYTE $0E $52 $FF $7F $BE $5F $D2 $2D $AA $00 $BF $67 $5F $53 $BE $36 $DF $3A $9D $32 $3A $26 $19 $22 $F8 $1D $D7 $19 $B6 $15 $95 $11
+
+// option 2 (blue)
+BYTE $0E $52 $FF $7F $BE $5F $D2 $2D $AA $00 $DD $7F $BC $7F $79 $7F $3D $63 $BC $7F $6A $45 $49 $41 $28 $3D $07 $39 $E6 $34 $C5 $30
+
+// option 3 (red)
+BYTE $0E $52 $FF $7F $BE $5F $D2 $2D $AA $00 $DF $7F $BF $7B $5F $77 $BF $7F $9F $6B $F6 $20 $D5 $1C $B4 $18 $93 $14 $72 $10 $51 $0C
+
+// option 4 (purple)
+BYTE $0E $52 $FF $7F $BE $5F $D2 $2D $AA $00 $DE $77 $BD $73 $9C $6F $7B $6B $39 $63 $4D $45 $2C $41 $0B $3D $EA $38 $C9 $34 $A8 $30
+
+// "option 5" (black) (for battle forecast)
+BYTE $0E $52 $FF $7F $BE $5F $D2 $2D $AA $00 $BF $67 $5F $53 $BE $36 $DF $3A $BD $7F $29 $25 $08 $21 $E7 $1C $C6 $18 $A5 $14 $84 $10
+
+ALIGN 4
+PhaseChangePalettes:
+// option 1 (orange)
+BYTE $0E $52 $B6 $15 $11 $01 $3A $26 $B6 $15 $7C $2E $BF $6F $5F $4F $FF $7F $00 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00
+
+// option 2 (blue)
+BYTE $0E $52 $85 $79 $C0 $40 $28 $7E $24 $55 $B0 $76 $36 $77 $9A $7B $FF $7F $00 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00
+
+// option 3 (red)
+BYTE $0E $52 $5B $08 $0F $00 $9F $21 $53 $08 $FE $5E $5E $6B $BF $77 $FF $7F $00 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00
+
+// option 4 (purple)
+BYTE $0E $52 $0B $3D $A8 $30 $4D $45 $C9 $34 $34 $62 $97 $6E $1B $7F $FF $7F $00 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00
+
+// "option 5" (black) (for enemy phase banner)
+BYTE $0E $52 $4A $29 $C6 $18 $8C $31 $08 $21 $F7 $5E $5A $6B $7B $6F $FF $7F $00 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00
+
+#include "SystemPalettes.lyn.event"

@@ -1,3 +1,4 @@
 #include "CharacterDefinitions.event"
 #include "ClassDefinitions.event"
 #include "ItemDefinitions.event"
+#include "AnimationDefinitions.event"

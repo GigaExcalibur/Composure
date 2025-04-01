@@ -47,5 +47,32 @@ All F2U portraits were recolored by me.
 | Sniper		| ArcherBias		| [Sniper (F) v2](https://github.com/Klokinator/FE-Repo/blob/main/Map%20Sprites/Infantry%20-%20(Bow)%20Snipers%20and%20Ballistae/Sniper%20(F)%20v2%20%7BArcherBias%7D-stand.png) |
 | Malig Knight	| MeatOfJustice		| [Wicked Flier (U)](https://github.com/Klokinator/FE-Repo/blob/main/Map%20Sprites/Mounted%20-%20Pegs%2C%20Wyverns%2C%20Griffons/Wicked%20Flier%20(U)%20%7BMeatOfJustice%7D-stand.png) |
 
-## Animations
+## Battle Animations
 
+| Class			| Artist(s)			| Repository Link		|
+| ---			| ---				| ---					|
+| Assassin		| FPZero, Moocavo, Riku (Sword and Unarmed)<br>Pushwall, Jj09 (Knife)<br>Ltranc (Bow, skin repalette)<br>Raulster/Alice (Hair) | [Assassin-Reskin (F) Leila + Skirt](https://github.com/Klokinator/FE-Repo/tree/main/Battle%20Animations/Infantry%20-%20(Swd)%20Thieves%2C%20Rogues%2C%20Assassins/%5BAssassin-Reskin%5D%20%5BF%5D%20Leila%20%2B%20Skirt) |
+| Falcoknight	| Jeorge_Reds (Repalette)<br>ShadowOfChaos (Staff)<br>Camus_Regan (Edits) | [Peg T2 Base (M) Outfit Repal + Weapons](https://github.com/Klokinator/FE-Repo/tree/main/Battle%20Animations/Mounted%20-%20Pegs%2C%20Wyverns%2C%20Griffons/%5BPeg%20T2%20Base%5D%20%5BM%5D%20Falcoknight%20Outfit%20Repal%20%2BWeapons%20by%20Camus%20Regan) |
+| Wolfssegner	| Datondemand (Updated design and animation)<br>VelvetKitsune (Base wolf, jockey, and dagger)<br>ZoramineFae (Sword motion)<br>Leo_link (Sword)<br>Sable Mage (Scripting)<br>MeatOfJustice (Staff and Unarmed) | [Wolf Variant (F) Wolf Knight revamp](https://github.com/Klokinator/FE-Repo/tree/main/Battle%20Animations/Mounted%20-%20Dismounted%2C%20Monsters%2C%20Misc/%5BWolf-Variant%5D%20%5BF%5D%20Wolf%20Knight%20revamp%20by%20DatonDemand) |
+| High Gremory	| Red Bean (Sword, Magic, Unarmed)<br>Jeorge_Reds (Scripting, Lance)<br>Marlon0024, Jeorge_Reds, EA, Smash, Red Bean (Lance)<br>UltraxBlade, 7743 (Magic Alt)<br>Sirknite31 (Javelin) | [FE8 Eirika Variant (F) Priestess Celica T2-style](https://github.com/Klokinator/FE-Repo/tree/main/Battle%20Animations/Lords%20-%20Vanilla%20and%20Custom/%5BFE8%20Eirika-Variant%5D%20%5BF%5D%20Priestess%20Celica%20T2-Style%20by%20EA) |
+| General		| Nuramon | [FE8 Ephraim Custom (M) T2 Heavy Infantry](https://github.com/Klokinator/FE-Repo/tree/main/Battle%20Animations/Lords%20-%20Vanilla%20and%20Custom/%5BFE8%20Ephraim-Custom%5D%20%5BM%5D%20T2%20Heavy%20Infantry%20by%20Nuramon) |
+| Oni Chieftain	| Dora Drago (Base animation)<br>Jj09 (Repalette) | [Axe Custom (M) Oni Chieftain Repalette](https://github.com/Klokinator/FE-Repo/tree/main/Battle%20Animations/Infantry%20-%20(Axe)%20Brigs%2C%20Pirates%2C%20Zerkers/%5BAxe-Custom%5D%20Oni%20Chieftain%20Repalette%20%5BM%5D) |
+| Violet Knight	| Teraspark (Repalette)<br>ShadowAllyX (Knife)<br> Toji Magia(Edits) | [FE8 Eirika Base (F) T2 Vanilla + Weapons](https://github.com/Klokinator/FE-Repo/tree/main/Battle%20Animations/Lords%20-%20Vanilla%20and%20Custom/%5BFE8%20Eirika-Base%5D%20%5BF%5D%20T2%20Vanilla%20%2BWeapons) |
+| Blacksmith	| Nuramon (Base animation)<br> Sax Marine (Spinning Hand Axe)<br>Ltranc (Magic Axe Alt)| [Hero Variant (M) Armored](https://github.com/Klokinator/FE-Repo/tree/main/Battle%20Animations/Infantry%20-%20(Swd)%20Mercenaries%20and%20Heroes/%5BHero-Variant%5D%20%5BM%5D%20Armored%20by%20Nuramon) |
+| Adventurer	| Nuramon | [Sniper Variant (M) Marksman](https://github.com/Klokinator/FE-Repo/tree/main/Battle%20Animations/Infantry%20-%20(Bow)%20Snipers%20and%20Ballistae/%5BSniper-Variant%5D%20Marksman%20%5BM%5D%20by%20Nuramon) |
+| Paladin		| SALVAGED (Base animation)<br>Obsidian Daddy (Bow)<br>ZoramineFae (Magic)<br>UltraxBlade (Magic script fix) | [Paladin Variant (M) SALVAGED + Weapons](https://github.com/Klokinator/FE-Repo/tree/main/Battle%20Animations/Mounted%20-%20Cavs%2C%20Paladins%2C%20Rangers/%5BPaladin-Variant%5D%20%5BM%5D%20SALVAGED%20%2BWeapons) |
+| Onmyoji		| GabrielKnight (Base animation)<br>SirKnite31 (Pants repalette) | [Custom Oracle (F) Repal Pants](https://github.com/Klokinator/FE-Repo/tree/main/Battle%20Animations/Magi%20-%20Special/%5BCustom%20Oracle%5D%20%5BF%5D%20Oracle%20Repal%20Pants) |
+| Dark Knight	| Leo_Link (Base animation)<br>UltraFenix, BatimatheBat (Alternate hair)<br>Ltranc, UltraFenix (Script)<br> | [Dark Knight (M) Leo's Dark Knight 3](https://github.com/Klokinator/FE-Repo/tree/main/Battle%20Animations/Mounted%20-%20Valks%2C%20MKs%2C%20Magi/%5BDark-Knight%5D%20%5BM%5D%20Leo's%20Dark%20Knight%20by%20Leo_Link%203) |
+
+| Swordmaster	|
+| Strategist	|
+| Maid			|
+| Sorcerer		|
+| Great Knight	|
+| Berserker		|
+| Master Ninja	|
+| Merchant		|
+| Spear Master	|
+| Bow Knight	|
+| Sniper		|
+| Malig Knight	|

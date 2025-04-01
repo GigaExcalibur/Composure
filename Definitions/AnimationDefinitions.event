@@ -1,0 +1,115 @@
+//
+#define AssassinBowAnim				0x01
+#define AssassinDaggerAnim			0x02
+#define AssassinUnarmedAnim			0x03
+
+//
+#define FalcoknightLanceAnim		0x04
+#define FalcoknightStaffAnim		0x05
+#define FalcoknightUnarmedAnim		0x06
+
+//
+#define WolfssegnerSwordAnim		0x07
+#define WolfssegnerDaggerAnim		0x08
+#define WolfssegnerUnarmedAnim		0x09
+
+//
+#define HighGremoryLanceAnim		0x0A
+#define HighGremoryMagicAnim		0x0B
+
+//
+#define GeneralLanceAnim			0x0C
+#define GeneralAxeAnim				0x0D
+#define GeneralHandAxeAnim			0x0E
+#define GeneralUnarmedAnim			0x0F
+
+//
+#define OniChieftainAxeAnim			0x10
+#define OniChieftainHandAxeAnim		0x11
+#define OniChieftainMagicAnim		0x12
+
+//
+#define VioletKnightSwordAnim		0x13
+#define VioletKnightAxeAnim			0x14
+#define VioletKnightHandAxeAnim		0x15
+#define VioletKnightBowAnim			0x16
+#define VioletKnightDaggerAnim		0x17
+#define VioletKnightStaffAnim		0x18
+#define VioletKnightUnarmedAnim		0x19
+
+//
+#define BlacksmithSwordAnim			0x1A
+#define BlacksmithAxeAnim			0x1B
+#define BlacksmithHandAxeAnim		0x1C
+#define BlacksmithUnarmedAnim		0x1D
+
+//
+#define AdventurerBowAnim			0x1E
+#define AdventurerStaffAnim			0x1F
+#define AdventurerUnarmedAnim		0x20
+
+//
+#define PaladinSwordAnim			0x21
+#define PaladinLanceAnim			0x22
+#define PaladinUnarmedAnim			0x23
+//
+#define OnmyojiStaffAnim			0x24
+#define OnmyojiMagicAnim			0x25
+
+//
+#define DarkKnightSwordAnim			0x26
+#define DarkKnightMagicAnim			0x27
+
+//
+#define SwordmasterSwordAnim		0x28
+#define SwordmasterUnarmedAnim		0x29
+
+//
+#define StrategistStaffAnim			0x2A
+#define StrategistMagicAnim			0x2B
+
+//
+#define MaidDaggerAnim				0x2C
+#define MaidStaffAnim				0x2D
+#define MaidUnarmedAnim				0x2E
+
+//
+#define SorcererMagicAnim			0x2F
+
+//
+#define GreatKnightSwordAnim		0x30
+#define GreatKnightAxeAnim			0x31
+#define GreatKnightHandAxeAnim		0x32
+#define GreatKnightUnarmedAnim		0x33
+
+//
+#define BerserkerAxeAnim			0x34
+#define BerserkerHandAxeAnim		0x35
+#define BerserkerUnarmedAnim		0x36
+
+//
+#define MasterNinjaSwordAnim		0x37
+#define MasterNinjaDaggerAnim		0x38
+#define MasterNinjaUnarmedAnim		0x39
+
+//
+#define MerchantBowAnim				0x3A
+#define MerchantUnarmedAnim			0x3B
+
+//
+#define SpearMasterLanceAnim		0x3C
+#define SpearMasterUnarmedAnim		0x3D
+
+//
+#define BowKnightSwordAnim			0x3E
+#define BowKnightBowAnim			0x3F
+#define BowKnightUnarmedAnim		0x40
+
+//
+#define SniperBowAnim				0x41
+#define SniperUnarmedAnim			0x42
+
+//
+#define MaligKnightAxeAnim			0x43
+#define MaligKnightHandAxeAnim		0x44
+#define MaligKnightMagicAnim		0x45

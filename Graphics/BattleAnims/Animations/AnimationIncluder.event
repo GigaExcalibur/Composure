@@ -1,0 +1,73 @@
+{
+#include "Assassin/Knife Installer.event"
+#include "Assassin/Bow Installer.event"
+#include "Assassin/Unarmed Installer.event"
+}
+
+{
+#include "Falcoknight/Lance Installer.event"
+#include "Falcoknight/Staff Installer.event"
+#include "Falcoknight/Unarmed Installer.event"
+}
+
+{
+#include "Wolfssegner/Sword Installer.event"
+#include "Wolfssegner/Knife Installer.event"
+#include "Wolfssegner/Unarmed Installer.event"
+}
+
+{
+#include "HighGremory/Lance Installer.event"
+#include "HighGremory/Magic Installer.event"
+}
+
+{
+#include "General/Lance Installer.event"
+#include "General/Axe Installer.event"
+#include "General/Handaxe Installer.event"
+#include "General/Unarmed Installer.event"
+}
+
+{
+#include "OniChieftain/Axe Installer.event"
+#include "OniChieftain/Handaxe Installer.event"
+#include "OniChieftain/Magic Installer.event"
+}
+
+{
+#include "VioletKnight/Sword Installer.event"
+#include "VioletKnight/Axe Installer.event"
+#include "VioletKnight/Handaxe Installer.event"
+#include "VioletKnight/Bow Installer.event"
+#include "VioletKnight/Staff Installer.event"
+#include "VioletKnight/Unarmed Installer.event"
+}
+
+{
+#include "Blacksmith/Sword Installer.event"
+#include "Blacksmith/Axe Installer.event"
+#include "Blacksmith/Handaxe Installer.event"
+#include "Blacksmith/Unarmed Installer.event"
+}
+
+{
+#include "Adventurer/Bow Installer.event"
+#include "Adventurer/Staff Installer.event"
+#include "Adventurer/Unarmed Installer.event"
+}
+
+{
+#include "Paladin/Sword Installer.event"
+#include "Paladin/Lance Installer.event"
+#include "Paladin/Unarmed Installer.event"
+}
+
+{
+#include "Onmyoji/Staff Installer.event"
+#include "Onmyoji/Magic Installer.event"
+}
+
+{
+#include "DarkKnight/Sword Installer.event"
+#include "DarkKnight/Magic Installer.event"
+}

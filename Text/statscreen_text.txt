@@ -132,9 +132,6 @@ Vindice[X]
 ## SupervacuoName
 Pedringano[X]
 
-## OniChieftainName
-Oni Chieftain[X]
-
 ## FullNameName
 Full Name[X]
 
@@ -142,4 +139,4 @@ Full Name[X]
 Eirika von Renais[X]
 
 ## EphraimFullName
-Ephraim von Renais[X]
+Lussurioso de Peoghis[X]

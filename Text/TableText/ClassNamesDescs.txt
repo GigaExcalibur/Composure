@@ -1,0 +1,71 @@
+## AssassinName
+Assassin[X]
+
+## FalcoknightName
+Falcoknight[X]
+
+## WolfssegnerName
+Wolfssegner[X]
+
+## HighGremoryName
+High Gremory[X]
+
+## GeneralName
+General[X]
+
+## OniChieftainName
+Oni Chieftain[X]
+
+## VioletKnightName
+Violet Knight[X]
+
+## BlacksmithName
+Blacksmith[X]
+
+## AdventurerName
+Adventurer[X]
+
+## PaladinName
+Paladin[X]
+
+## OnmyojiName
+Onmyoji[X]
+
+## DarkKnightName
+Dark Knight[X]
+
+## SwordmasterName
+Swordmaster[X]
+
+## StrategistName
+Strategist[X]
+
+## MaidName
+Maid[X]
+
+## SorcererName
+Sorcerer[X]
+
+## GreatKnightName
+Great Knight[X]
+
+## BerserkerName
+Berserker[X]
+
+## MasterNinjaName
+Master Ninja[X]
+
+## MerchantName
+Merchant[X]
+
+## SpearMasterName
+Spearmaster[X]
+
+## BowKnightName
+Bow Knight[X]
+
+## SniperName
+Sniper[X]
+
+## MaligKnightName
+Malig Knight[X]

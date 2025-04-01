@@ -33,7 +33,7 @@ Res[X]
 Poi[X]
 
 # 0x04F3
-Atk[X]
+  Atk[X]
 
 # 0x04F5
   Avo[X]
